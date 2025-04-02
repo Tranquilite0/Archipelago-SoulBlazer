@@ -53,8 +53,26 @@ class SoulBlazerSNIClient(SNIClient):
         self.entity_list: list[EntityData] = []
         self.lairs_for_map: dict[int, set[int]] = {}
         self.lairs_rom_name: bytes = bytes(0)
+        self.lairs_sealed: list[int] = []
 
-    async def was_obtained_locally(self, ctx, item: NetworkItem) -> bool:
+    async def set_lairs_sealed(self, ctx: "SNIContext", lair_state_table: bytes):
+        """Checks the if all lairs are sealed and updates the data storage if it has changed."""
+        new_lairs_sealed = [x & 0x80 for x in lair_state_table]
+        if new_lairs_sealed != self.lairs_sealed:
+            await ctx.send_msgs(
+                [
+                    {
+                        "cmd": "Set",
+                        "key": f"soulblazer_lairs_sealed_{ctx.team}_{ctx.slot}",
+                        "default": [],
+                        "want_reply": False,
+                        "operations": [{"operation": "replace", "value": new_lairs_sealed}],
+                    }
+                ]
+            )
+        self.lairs_sealed = new_lairs_sealed
+
+    async def was_obtained_locally(self, ctx: "SNIContext", item: NetworkItem) -> bool:
         """True if the item was a local item that has already been obtained."""
 
         from SNIClient import snes_read
@@ -131,6 +149,7 @@ class SoulBlazerSNIClient(SNIClient):
         ctx.want_slot_data = True
 
         # This is pretty hacky, but I cant figure out a way to get this data otherwise.
+        # TODO: remove this now that 0.6.0 makes it irrelevant
         def new_on_package(self: SNIContext, cmd: str, args: dict):
             """Custom package handling for Soul Blazer."""
             # Run the original on_package
@@ -294,6 +313,8 @@ class SoulBlazerSNIClient(SNIClient):
         # Check if there are any queued item sends that we are ready to display.
         if not hasattr(ctx, "item_send_queue"):
             ctx.item_send_queue = []
+
+        self.set_lairs_sealed(ctx, ram_lair_spawn)
 
         if bool(ctx.item_send_queue):
             tx_status = await snes_read(ctx, Addresses.TX_STATUS, 1)
