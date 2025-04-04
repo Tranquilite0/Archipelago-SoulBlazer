@@ -54,6 +54,7 @@ class SoulBlazerSNIClient(SNIClient):
         self.lairs_for_map: dict[int, set[int]] = {}
         self.lairs_rom_name: bytes = bytes(0)
         self.lairs_sealed: list[int] = []
+        self.event_flags: list[int] = []
 
     async def set_lairs_sealed(self, ctx: "SNIContext", lair_state_table: bytes):
         """Checks the if all lairs are sealed and updates the data storage if it has changed."""
@@ -71,6 +72,23 @@ class SoulBlazerSNIClient(SNIClient):
                 ]
             )
         self.lairs_sealed = new_lairs_sealed
+
+    async def set_event_flags(self, ctx: "SNIContext", event_bytes: bytes):
+        """Check if any new event flags have been set and updates the data storage if it has changed."""
+        new_event_flags: list[int] = [*event_bytes]
+        if new_event_flags != self.event_flags:
+            await ctx.send_msgs(
+                [
+                    {
+                        "cmd": "Set",
+                        "key": f"soulblazer_event_flags_{ctx.team}_{ctx.slot}",
+                        "default": [],
+                        "want_reply": False,
+                        "operations": [{"operation": "replace", "value": new_event_flags}],
+                    }
+                ]
+            )
+        self.event_flags = new_event_flags
 
     async def was_obtained_locally(self, ctx: "SNIContext", item: NetworkItem) -> bool:
         """True if the item was a local item that has already been obtained."""
@@ -219,7 +237,7 @@ class SoulBlazerSNIClient(SNIClient):
             # We haven't loaded a save file
             return
 
-        ram_misc_start = Addresses.EVENT_FLAGS_WIN
+        ram_misc_start = Addresses.EVENT_FLAGS
         ram_misc_end = Addresses.NPC_REWARD_TABLE + Addresses.NPC_REWARD_TABLE_SIZE
         # Misc values in LowRAM
         ram_misc = await snes_read(ctx, ram_misc_start, ram_misc_end - ram_misc_start + 1)
@@ -315,6 +333,7 @@ class SoulBlazerSNIClient(SNIClient):
             ctx.item_send_queue = []
 
         self.set_lairs_sealed(ctx, ram_lair_spawn)
+        self.set_event_flags(ctx, ram_misc[ram_misc - Addresses.EVENT_FLAGS : ram_misc - Addresses.NPC_REWARD_TABLE])
 
         if bool(ctx.item_send_queue):
             tx_status = await snes_read(ctx, Addresses.TX_STATUS, 1)
