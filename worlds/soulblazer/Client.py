@@ -53,29 +53,29 @@ class SoulBlazerSNIClient(SNIClient):
         self.entity_list: list[EntityData] = []
         self.lairs_for_map: dict[int, set[int]] = {}
         self.lairs_rom_name: bytes = bytes(0)
-        self.lairs_sealed: list[int] = []
+        self.lair_state: list[int] = []
         self.event_flags: list[int] = []
 
     async def set_lairs_sealed(self, ctx: "SNIContext", lair_state_table: bytes):
-        """Checks the if all lairs are sealed and updates the data storage if it has changed."""
-        new_lairs_sealed = [x & 0x80 for x in lair_state_table]
-        if new_lairs_sealed != self.lairs_sealed:
+        """Checks if lair state has changed and updates the data storage if it has."""
+        new_lair_state = [*lair_state_table]
+        if new_lair_state != self.lair_state:
             await ctx.send_msgs(
                 [
                     {
                         "cmd": "Set",
-                        "key": f"soulblazer_lairs_sealed_{ctx.team}_{ctx.slot}",
+                        "key": f"soulblazer_lair_state_{ctx.team}_{ctx.slot}",
                         "default": [],
                         "want_reply": False,
-                        "operations": [{"operation": "replace", "value": new_lairs_sealed}],
+                        "operations": [{"operation": "replace", "value": new_lair_state}],
                     }
                 ]
             )
-        self.lairs_sealed = new_lairs_sealed
+        self.lair_state = new_lair_state
 
-    async def set_event_flags(self, ctx: "SNIContext", event_bytes: bytes):
+    async def set_event_flags(self, ctx: "SNIContext", event_flags_table: bytes):
         """Check if any new event flags have been set and updates the data storage if it has changed."""
-        new_event_flags: list[int] = [*event_bytes]
+        new_event_flags: list[int] = [*event_flags_table]
         if new_event_flags != self.event_flags:
             await ctx.send_msgs(
                 [
@@ -332,8 +332,10 @@ class SoulBlazerSNIClient(SNIClient):
         if not hasattr(ctx, "item_send_queue"):
             ctx.item_send_queue = []
 
-        self.set_lairs_sealed(ctx, ram_lair_spawn)
-        self.set_event_flags(ctx, ram_misc[ram_misc - Addresses.EVENT_FLAGS : ram_misc - Addresses.NPC_REWARD_TABLE])
+        await self.set_lairs_sealed(ctx, ram_lair_spawn)
+        await self.set_event_flags(
+            ctx, ram_misc[(Addresses.EVENT_FLAGS - ram_misc_start) : (Addresses.NPC_REWARD_TABLE - ram_misc_start)]
+        )
 
         if bool(ctx.item_send_queue):
             tx_status = await snes_read(ctx, Addresses.TX_STATUS, 1)
