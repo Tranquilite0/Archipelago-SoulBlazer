@@ -1,10 +1,11 @@
 from dataclasses import dataclass, replace
+from typing import Any
+
 from BaseClasses import ItemClassification
-from . import get_data_file_bytes, dw
+from Utils import parse_yaml
 from .Enums import ItemID, IDOffset, NPCID, SoulID
+from ..Data import get_data_file_bytes, from_yaml_or, int_from_yaml, list_from_yaml, str_from_yaml
 from ..Util import int_to_bcd
-
-
 
 @dataclass(frozen=True)
 class SoulBlazerItemData:
@@ -20,6 +21,16 @@ class SoulBlazerItemData:
     classification: int | ItemClassification
 
     description: str = ""
+
+    @staticmethod
+    def from_yaml(yaml: Any) -> "SoulBlazerItemData":
+        return SoulBlazerItemData(
+            name = str_from_yaml(yaml["name"]),
+            id = int_from_yaml(yaml["id"]),
+            operand = int_from_yaml(yaml["operand"]),
+            classification = int_from_yaml(yaml["classification"]),
+            description = from_yaml_or(yaml["description"], str_from_yaml, ""),
+        )
 
     def duplicate(self, **changes) -> "SoulBlazerItemData":
         """Returns a copy of this ItemData with the specified changes."""
@@ -45,9 +56,8 @@ class SoulBlazerItemData:
             return self.operand_bcd
         return self.operand
 
-
 @dataclass(frozen=True)
-class SoulBlazerItemsData(dw.YAMLWizard):
+class SoulBlazerItemsData:
     swords: list[SoulBlazerItemData]
     armors: list[SoulBlazerItemData]
     magics: list[SoulBlazerItemData]
@@ -56,6 +66,19 @@ class SoulBlazerItemsData(dw.YAMLWizard):
     npc_releases: list[SoulBlazerItemData]
     souls: list[SoulBlazerItemData]
     special_items: list[SoulBlazerItemData]
+
+    @staticmethod
+    def from_yaml(yaml: Any) -> "SoulBlazerItemsData":
+        return SoulBlazerItemsData(
+            swords = list_from_yaml(yaml["swords"], SoulBlazerItemData.from_yaml),
+            armors = list_from_yaml(yaml["armors"], SoulBlazerItemData.from_yaml),
+            magics = list_from_yaml(yaml["magics"], SoulBlazerItemData.from_yaml),
+            inventory_items = list_from_yaml(yaml["inventory_items"], SoulBlazerItemData.from_yaml),
+            misc_items = list_from_yaml(yaml["misc_items"], SoulBlazerItemData.from_yaml),
+            npc_releases = list_from_yaml(yaml["npc_releases"], SoulBlazerItemData.from_yaml),
+            souls = list_from_yaml(yaml["souls"], SoulBlazerItemData.from_yaml),
+            special_items = list_from_yaml(yaml["special_items"], SoulBlazerItemData.from_yaml),
+        )
 
     @property
     def all_items(self) -> list[SoulBlazerItemData]:
@@ -70,8 +93,9 @@ class SoulBlazerItemsData(dw.YAMLWizard):
             *self.special_items,
         ]
 
-
-items_data: SoulBlazerItemsData = SoulBlazerItemsData.from_yaml(get_data_file_bytes("SoulBlazerItems.yaml"))
+items_data_bytes = get_data_file_bytes("SoulBlazerItems.yaml")
+items_data_yaml = parse_yaml(items_data_bytes)
+items_data: SoulBlazerItemsData = SoulBlazerItemsData.from_yaml(items_data_yaml)
 """A collection of SoulBlazer Item data loaded from SoulBlazerItems.yaml."""
 
 ItemID.full_names = {
