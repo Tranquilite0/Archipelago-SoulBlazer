@@ -98,7 +98,7 @@ class LairData(NamedTuple):
     field_1C: int
     """Unknown, always zero. Probably unused."""
     field_1D: int
-    """Unknownm, usually zero, but ocasionally 1,2 or 3."""
+    """Unknown, usually zero, but ocasionally 1,2 or 3."""
     lair_dependency: int
     """Lair ID of NPC this lair is dependent on. 2 bytes."""
 
