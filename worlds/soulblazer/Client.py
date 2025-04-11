@@ -8,8 +8,8 @@ from .Data.ItemData import items_data
 from .Data.LocationData import locations_data
 from .Data.Enums import LocationType, ItemID
 from .Util import encode_string, is_bit_set, Rectangle
-from .Lair import LairData, unpack_lair_data
-from .Entity import EntityData, unpack_entity_data
+from .Data.Lair import LairData, unpack_lair_data
+from .Data.Entity import EntityData, unpack_entity_data
 from NetUtils import ClientStatus, color, NetworkItem
 from worlds.AutoSNIClient import SNIClient
 from Utils import async_start
