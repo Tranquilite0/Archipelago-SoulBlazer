@@ -1,9 +1,19 @@
-from typing import NamedTuple, List
+from typing import NamedTuple
 import struct
-
+from yaml import Dumper, SafeDumper, safe_dump
 
 lair_struct = struct.Struct("<16B1H8B1H2B1H")
 
+class HexInt(int):
+    """Represents integers as hexadecimal."""
+    def __repr__(self):
+        return f'0x{self:02X}'
+
+
+def represent_hexint(dumper: Dumper, data):
+    return dumper.represent_scalar('tag:yaml.org,2002:int', repr(data))
+
+SafeDumper.add_representer(HexInt, represent_hexint)
 
 class LairData(NamedTuple):
     """32-byte Lair Data structure."""
@@ -102,12 +112,25 @@ class LairData(NamedTuple):
     lair_dependency: int
     """Lair ID of NPC this lair is dependent on. 2 bytes."""
 
-
-def unpack_lair_data(buffer) -> List[LairData]:
+def unpack_lair_data(buffer) -> list[LairData]:
     return [LairData._make(data) for data in lair_struct.iter_unpack(buffer)]
-
 
 # TODO: unsure if this is the correct syntax. Verify.
 def pack_lair_data(buffer, offset: int, *lair_data: LairData) -> None:
     lair_struct.pack_into(buffer, offset, lair_data)
     return
+
+def lair_data_representer(dumper:Dumper, data):
+    as_hex_int = LairData(*[HexInt(i) for i in data])
+    return dumper.represent_dict(as_hex_int._asdict())
+
+SafeDumper.add_multi_representer(LairData, lair_data_representer)
+
+if __name__ == '__main__':
+    with open('Soul Blazer (U).sfc', 'rb') as rom:
+        rom.seek(0xBA0D)
+        lair_bytes = rom.read(32 * 420)
+        lair_data = unpack_lair_data(lair_bytes)
+        with open('LairData.yaml', 'w') as yaml:
+            safe_dump(lair_data, yaml, sort_keys=False)
+            
