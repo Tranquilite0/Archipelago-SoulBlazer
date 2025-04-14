@@ -15,13 +15,13 @@
   field_0E: 0x01
   field_0F: 0x01
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x20
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
+  lair_reward_id: 0xFD
   lair_reward_operand: 0x00
   field_1B: 0x00
   field_1C: 0x00
@@ -44,14 +44,14 @@
   field_0E: 0x2D
   field_0F: 0x15
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x20
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x01
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -73,14 +73,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x20
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x02
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -102,14 +102,14 @@
   field_0E: 0x2D
   field_0F: 0x1A
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x64
   entity_id: 0x23
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x03
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -131,14 +131,14 @@
   field_0E: 0x03
   field_0F: 0x21
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x00
   entity_id: 0x20
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x04
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -160,14 +160,14 @@
   field_0E: 0x42
   field_0F: 0x07
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x3C
   entity_id: 0x20
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x05
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -189,14 +189,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x20
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x06
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -218,14 +218,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x50
   entity_id: 0x23
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x07
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -247,14 +247,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x21
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x08
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -276,14 +276,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x21
   entity_id: 0x1F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x09
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -305,14 +305,14 @@
   field_0E: 0x12
   field_0F: 0x05
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x07
   spawn_rate: 0x3C
   entity_id: 0x20
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x0A
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -334,14 +334,14 @@
   field_0E: 0x2D
   field_0F: 0x1E
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x22
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x0B
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -363,14 +363,14 @@
   field_0E: 0x25
   field_0F: 0x06
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x21
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x0C
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -392,14 +392,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x14
   entity_id: 0x23
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x0D
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -421,14 +421,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x32
   entity_id: 0x21
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x0E
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -450,14 +450,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x28
   entity_id: 0x23
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x0F
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -479,14 +479,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x20
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x10
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -508,14 +508,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x20
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x11
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -537,14 +537,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x28
   entity_id: 0x23
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x12
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -566,14 +566,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x28
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x13
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -595,14 +595,14 @@
   field_0E: 0x1F
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x00
   entity_id: 0x22
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x14
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -624,14 +624,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x0A
   entity_id: 0x22
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x15
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -653,14 +653,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x21
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x16
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -682,14 +682,14 @@
   field_0E: 0x1F
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x20
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x17
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -711,14 +711,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x1E
   entity_id: 0x22
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x18
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -740,14 +740,14 @@
   field_0E: 0x1E
   field_0F: 0x02
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x20
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x19
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -769,14 +769,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x21
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x1A
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -798,14 +798,14 @@
   field_0E: 0x05
   field_0F: 0x2E
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x00
   entity_id: 0x29
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x1B
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -827,14 +827,14 @@
   field_0E: 0x09
   field_0F: 0x15
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x26
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x1C
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -856,14 +856,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x3C
   entity_id: 0x26
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x1D
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -885,14 +885,14 @@
   field_0E: 0x43
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x28
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x1E
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -914,14 +914,14 @@
   field_0E: 0x40
   field_0F: 0x04
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x02
   entity_id: 0x2E
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x1F
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -943,14 +943,14 @@
   field_0E: 0x49
   field_0F: 0x01
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x26
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x20
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -972,14 +972,14 @@
   field_0E: 0x40
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x0F
   entity_id: 0x27
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x21
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1001,14 +1001,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x28
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x22
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1030,14 +1030,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x10
   entity_id: 0x2E
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x23
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1059,14 +1059,14 @@
   field_0E: 0x00
   field_0F: 0x40
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x64
   entity_id: 0x26
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x24
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1088,14 +1088,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x01
   entity_id: 0x29
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x25
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1117,14 +1117,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x01
   entity_id: 0xFF
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x26
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1146,14 +1146,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x01
   entity_id: 0xFF
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x27
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1175,14 +1175,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x0A
   entity_id: 0x23
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x28
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1204,14 +1204,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x14
   entity_id: 0x23
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x29
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1233,14 +1233,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x20
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x2A
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x01
@@ -1262,14 +1262,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x11
   entity_id: 0x27
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x2B
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x01
@@ -1291,14 +1291,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x07
   spawn_rate: 0x12
   entity_id: 0x27
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x2C
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1320,14 +1320,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x01
   entity_id: 0xFF
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x2D
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1349,14 +1349,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x28
   entity_id: 0x28
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x2E
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1378,14 +1378,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x26
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x2F
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1407,14 +1407,14 @@
   field_0E: 0x1F
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x28
   entity_id: 0x22
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x30
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1436,14 +1436,14 @@
   field_0E: 0x1F
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x14
   entity_id: 0x22
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x31
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1465,14 +1465,14 @@
   field_0E: 0x1C
   field_0F: 0x00
   lair_behavior_pointer: 0x00
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x00
   spawn_rate: 0x00
   entity_id: 0x00
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x32
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1494,14 +1494,14 @@
   field_0E: 0x02
   field_0F: 0x39
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x28
   entity_id: 0x28
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x33
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1523,14 +1523,14 @@
   field_0E: 0x00
   field_0F: 0x42
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x3C
   entity_id: 0x26
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x34
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1552,14 +1552,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x01
   entity_id: 0xFF
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x35
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1581,14 +1581,14 @@
   field_0E: 0x00
   field_0F: 0x30
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x6D
   entity_id: 0x33
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x36
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1610,14 +1610,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x6E
   entity_id: 0x33
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x37
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1639,14 +1639,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x38
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1668,14 +1668,14 @@
   field_0E: 0x00
   field_0F: 0x62
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x14
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x39
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1697,14 +1697,14 @@
   field_0E: 0x1B
   field_0F: 0x3A
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x2E
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x3A
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1726,14 +1726,14 @@
   field_0E: 0x00
   field_0F: 0x5E
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x50
   entity_id: 0x2E
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x3B
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1755,14 +1755,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x14
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x3C
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1784,14 +1784,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x00
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x3D
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1813,14 +1813,14 @@
   field_0E: 0x1A
   field_0F: 0x55
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x00
   entity_id: 0x2E
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x3E
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1842,14 +1842,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x64
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x3F
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1871,14 +1871,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x40
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1900,14 +1900,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x1E
   entity_id: 0x48
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x41
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1929,14 +1929,14 @@
   field_0E: 0x05
   field_0F: 0x29
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x00
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x42
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -1958,14 +1958,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x2E
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x43
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x01
@@ -1987,14 +1987,14 @@
   field_0E: 0x00
   field_0F: 0x2B
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x64
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x44
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2016,14 +2016,14 @@
   field_0E: 0x01
   field_0F: 0x3B
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x0A
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x45
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2045,14 +2045,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x2E
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x46
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2074,14 +2074,14 @@
   field_0E: 0x10
   field_0F: 0x37
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x28
   entity_id: 0x2E
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x47
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2103,14 +2103,14 @@
   field_0E: 0x16
   field_0F: 0x27
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x48
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2132,14 +2132,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x1E
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x49
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x03
@@ -2161,14 +2161,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x00
   entity_id: 0x2F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x4A
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2190,14 +2190,14 @@
   field_0E: 0x00
   field_0F: 0x40
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x50
   entity_id: 0x2E
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x4B
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2219,14 +2219,14 @@
   field_0E: 0x10
   field_0F: 0x40
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x00
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x4C
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2248,14 +2248,14 @@
   field_0E: 0x20
   field_0F: 0x40
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x28
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x4D
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2277,14 +2277,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x0A
   entity_id: 0x2E
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x4E
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2306,14 +2306,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x03
   entity_id: 0x2F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x4F
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x01
@@ -2335,14 +2335,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x20
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x50
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x02
@@ -2364,14 +2364,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x04
   entity_id: 0x2F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x51
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x02
@@ -2393,14 +2393,14 @@
   field_0E: 0x00
   field_0F: 0x4F
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x19
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x52
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2422,14 +2422,14 @@
   field_0E: 0x00
   field_0F: 0x01
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x05
   entity_id: 0x49
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x53
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2451,14 +2451,14 @@
   field_0E: 0x00
   field_0F: 0x2A
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x28
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x54
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2480,14 +2480,14 @@
   field_0E: 0x05
   field_0F: 0x2D
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x55
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2509,14 +2509,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x00
   entity_id: 0x35
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x56
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2538,14 +2538,14 @@
   field_0E: 0x01
   field_0F: 0x30
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x28
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x57
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2567,14 +2567,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x1E
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x58
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x03
@@ -2596,14 +2596,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x35
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x59
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2625,14 +2625,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x53
   entity_id: 0x35
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x5A
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2654,14 +2654,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x28
   entity_id: 0x38
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x5B
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2683,14 +2683,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x28
   entity_id: 0x48
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x5C
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x03
@@ -2712,14 +2712,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x07
   entity_id: 0x35
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x5D
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x02
@@ -2741,14 +2741,14 @@
   field_0E: 0x05
   field_0F: 0x39
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x5E
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2770,14 +2770,14 @@
   field_0E: 0x2A
   field_0F: 0x2C
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x38
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x5F
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2799,14 +2799,14 @@
   field_0E: 0x2A
   field_0F: 0x2C
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x38
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x60
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2828,14 +2828,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x32
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x61
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2857,14 +2857,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x50
   entity_id: 0x48
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x62
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2886,14 +2886,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x19
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x63
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2915,14 +2915,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x0A
   spawn_rate: 0x08
   entity_id: 0x49
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x64
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2944,14 +2944,14 @@
   field_0E: 0x25
   field_0F: 0x0B
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x28
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x65
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -2973,14 +2973,14 @@
   field_0E: 0x14
   field_0F: 0x0A
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x0A
   entity_id: 0x35
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x66
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3002,14 +3002,14 @@
   field_0E: 0x1D
   field_0F: 0x0A
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x14
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x67
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3031,14 +3031,14 @@
   field_0E: 0x1C
   field_0F: 0x38
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x38
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x68
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3060,14 +3060,14 @@
   field_0E: 0x12
   field_0F: 0x37
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x48
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x69
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3089,14 +3089,14 @@
   field_0E: 0x1D
   field_0F: 0x0A
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x00
   entity_id: 0x38
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x6A
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3118,14 +3118,14 @@
   field_0E: 0x02
   field_0F: 0x36
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x1E
   entity_id: 0x38
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x6B
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3147,14 +3147,14 @@
   field_0E: 0x1D
   field_0F: 0x0A
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x23
   entity_id: 0x48
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x6C
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3176,14 +3176,14 @@
   field_0E: 0x25
   field_0F: 0x0B
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x0C
   entity_id: 0x35
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x6D
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3205,14 +3205,14 @@
   field_0E: 0x35
   field_0F: 0x1D
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x00
   entity_id: 0x38
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x6E
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3234,14 +3234,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x3C
   entity_id: 0x38
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x6F
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3263,14 +3263,14 @@
   field_0E: 0x00
   field_0F: 0x3F
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x64
   entity_id: 0x38
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x70
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3292,14 +3292,14 @@
   field_0E: 0x35
   field_0F: 0x1D
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x0D
   entity_id: 0x35
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x71
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3321,14 +3321,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x48
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x72
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3350,14 +3350,14 @@
   field_0E: 0x02
   field_0F: 0x2C
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x32
   entity_id: 0x48
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x73
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3379,14 +3379,14 @@
   field_0E: 0x16
   field_0F: 0x00
   lair_behavior_pointer: 0x00
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x00
   spawn_rate: 0x00
   entity_id: 0x00
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x74
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3408,14 +3408,14 @@
   field_0E: 0x0D
   field_0F: 0x08
   lair_behavior_pointer: 0x00
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x00
   spawn_rate: 0x00
   entity_id: 0x00
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x75
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3437,14 +3437,14 @@
   field_0E: 0x00
   field_0F: 0x31
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x09
   entity_id: 0x49
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x76
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3466,14 +3466,14 @@
   field_0E: 0x71
   field_0F: 0x03
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x26
   entity_id: 0x35
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x77
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3495,14 +3495,14 @@
   field_0E: 0x00
   field_0F: 0x3B
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x0F
   entity_id: 0x34
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x78
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3524,14 +3524,14 @@
   field_0E: 0x00
   field_0F: 0x3C
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x00
   spawn_rate: 0x01
   entity_id: 0x00
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x79
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3553,14 +3553,14 @@
   field_0E: 0x1D
   field_0F: 0x1B
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x36
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x7A
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3582,14 +3582,14 @@
   field_0E: 0x1A
   field_0F: 0x30
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x34
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x7B
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3611,14 +3611,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x36
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x7C
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3640,14 +3640,14 @@
   field_0E: 0x11
   field_0F: 0x41
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x19
   entity_id: 0x3B
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x7D
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3669,14 +3669,14 @@
   field_0E: 0x23
   field_0F: 0x34
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x28
   entity_id: 0x36
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x7E
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3698,14 +3698,14 @@
   field_0E: 0x01
   field_0F: 0x01
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x19
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x7F
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3727,14 +3727,14 @@
   field_0E: 0x30
   field_0F: 0x30
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x24
   entity_id: 0x35
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x80
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3756,14 +3756,14 @@
   field_0E: 0x4A
   field_0F: 0x30
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x32
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x81
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3785,14 +3785,14 @@
   field_0E: 0x40
   field_0F: 0x30
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x07
   spawn_rate: 0x00
   entity_id: 0x34
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x82
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3814,14 +3814,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x23
   entity_id: 0x34
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x83
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3843,14 +3843,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x32
   entity_id: 0x36
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x84
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3872,14 +3872,14 @@
   field_0E: 0x55
   field_0F: 0x37
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x00
   entity_id: 0x34
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x85
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3901,14 +3901,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x25
   entity_id: 0x35
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x86
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3930,14 +3930,14 @@
   field_0E: 0x00
   field_0F: 0x31
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x23
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x87
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3959,14 +3959,14 @@
   field_0E: 0x6B
   field_0F: 0x11
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x34
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x88
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -3988,14 +3988,14 @@
   field_0E: 0x00
   field_0F: 0x41
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x89
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4017,14 +4017,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x00
   entity_id: 0x3F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x8A
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4046,14 +4046,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x1B
   entity_id: 0x3B
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x8B
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4075,14 +4075,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x1C
   entity_id: 0x3B
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x8C
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4104,14 +4104,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x8D
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4133,14 +4133,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x3E
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x8E
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4162,14 +4162,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x28
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x8F
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4191,14 +4191,14 @@
   field_0E: 0x1D
   field_0F: 0x47
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x1E
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x90
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4220,14 +4220,14 @@
   field_0E: 0x1D
   field_0F: 0x48
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x00
   entity_id: 0x3F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x91
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4249,14 +4249,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x92
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4278,14 +4278,14 @@
   field_0E: 0x0F
   field_0F: 0x4D
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x1D
   entity_id: 0x3B
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x93
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4307,14 +4307,14 @@
   field_0E: 0x25
   field_0F: 0x43
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x64
   entity_id: 0x3F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x94
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4336,14 +4336,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x95
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4365,14 +4365,14 @@
   field_0E: 0x3A
   field_0F: 0x40
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x00
   entity_id: 0x3F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x96
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4394,14 +4394,14 @@
   field_0E: 0x30
   field_0F: 0x42
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x28
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x97
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4423,14 +4423,14 @@
   field_0E: 0x31
   field_0F: 0x47
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x28
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x98
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4452,14 +4452,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x50
   entity_id: 0x3A
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x99
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4481,14 +4481,14 @@
   field_0E: 0x10
   field_0F: 0x47
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x9A
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4510,14 +4510,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x50
   entity_id: 0x3A
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x9B
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4539,14 +4539,14 @@
   field_0E: 0x11
   field_0F: 0x57
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x13
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x9C
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4568,14 +4568,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x9D
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4597,14 +4597,14 @@
   field_0E: 0x24
   field_0F: 0x41
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x14
   entity_id: 0x3A
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x9E
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4626,14 +4626,14 @@
   field_0E: 0x25
   field_0F: 0x55
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x00
   entity_id: 0x3F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x9F
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4655,14 +4655,14 @@
   field_0E: 0x23
   field_0F: 0x51
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x14
   entity_id: 0x3B
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xA0
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4684,14 +4684,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x23
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xA1
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4713,14 +4713,14 @@
   field_0E: 0x35
   field_0F: 0x54
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x46
   entity_id: 0x3A
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xA2
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4742,14 +4742,14 @@
   field_0E: 0x34
   field_0F: 0x26
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x15
   entity_id: 0x3B
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xA3
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4771,14 +4771,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x64
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xA4
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4800,14 +4800,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x64
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xA5
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4829,14 +4829,14 @@
   field_0E: 0x0C
   field_0F: 0x0A
   lair_behavior_pointer: 0xA813
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x00
   entity_id: 0x3F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xA6
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4858,14 +4858,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x1E
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xA7
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4887,14 +4887,14 @@
   field_0E: 0x07
   field_0F: 0x44
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x07
   spawn_rate: 0x28
   entity_id: 0x3A
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xA8
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4916,14 +4916,14 @@
   field_0E: 0x05
   field_0F: 0x34
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x17
   entity_id: 0x3B
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xA9
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4945,14 +4945,14 @@
   field_0E: 0x14
   field_0F: 0x37
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x18
   entity_id: 0x3B
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xAA
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -4974,14 +4974,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x14
   entity_id: 0x3A
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xAB
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5003,14 +5003,14 @@
   field_0E: 0x19
   field_0F: 0x16
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xAC
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5032,14 +5032,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x28
   entity_id: 0x35
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xAD
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5061,14 +5061,14 @@
   field_0E: 0x18
   field_0F: 0x1A
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xAE
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5090,14 +5090,14 @@
   field_0E: 0x06
   field_0F: 0x4E
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x32
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xAF
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5119,14 +5119,14 @@
   field_0E: 0x11
   field_0F: 0x53
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x30
   entity_id: 0x3A
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xB0
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5148,14 +5148,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x14
   entity_id: 0x3A
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xB1
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5177,14 +5177,14 @@
   field_0E: 0x1F
   field_0F: 0x44
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x14
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xB2
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5206,14 +5206,14 @@
   field_0E: 0x1A
   field_0F: 0x34
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x00
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xB3
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5235,14 +5235,14 @@
   field_0E: 0x22
   field_0F: 0x51
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x00
   entity_id: 0x3F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xB4
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5264,14 +5264,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x1A
   entity_id: 0x3B
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xB5
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5293,14 +5293,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x22
   entity_id: 0x41
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xB6
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5322,14 +5322,14 @@
   field_0E: 0x04
   field_0F: 0x26
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x1E
   entity_id: 0x35
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xB7
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5351,14 +5351,14 @@
   field_0E: 0x01
   field_0F: 0x01
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x28
   entity_id: 0x3F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xB8
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5380,14 +5380,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x28
   entity_id: 0x3E
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xB9
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5409,14 +5409,14 @@
   field_0E: 0x03
   field_0F: 0x45
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x1E
   entity_id: 0x3B
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xBA
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5438,14 +5438,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA813
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x00
   entity_id: 0x3F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xBB
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5467,14 +5467,14 @@
   field_0E: 0x20
   field_0F: 0x50
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x1E
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xBC
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5496,14 +5496,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xBD
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5525,14 +5525,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x3D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xBE
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5554,14 +5554,14 @@
   field_0E: 0x32
   field_0F: 0x40
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x1F
   entity_id: 0x3B
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xBF
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5583,14 +5583,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA813
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x00
   entity_id: 0x3F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xC0
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5612,14 +5612,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x1E
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xC1
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5641,14 +5641,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x50
   entity_id: 0x34
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xC2
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5670,14 +5670,14 @@
   field_0E: 0x3A
   field_0F: 0x54
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x16
   entity_id: 0x3B
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xC3
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5699,14 +5699,14 @@
   field_0E: 0x2A
   field_0F: 0x2E
   lair_behavior_pointer: 0xA7D2
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x0A
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xC4
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5728,14 +5728,14 @@
   field_0E: 0x15
   field_0F: 0x40
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x2C
   entity_id: 0x2E
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xC5
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5757,14 +5757,14 @@
   field_0E: 0x1A
   field_0F: 0x40
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x30
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xC6
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5786,14 +5786,14 @@
   field_0E: 0x00
   field_0F: 0x40
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x2D
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xC7
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5815,14 +5815,14 @@
   field_0E: 0x26
   field_0F: 0x40
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x28
   entity_id: 0x2F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xC8
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5844,14 +5844,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x2F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xC9
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5873,14 +5873,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x2E
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xCA
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5902,14 +5902,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA7D2
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x01
   entity_id: 0x30
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xCB
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5931,14 +5931,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x30
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xCC
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5960,14 +5960,14 @@
   field_0E: 0x00
   field_0F: 0x3B
   lair_behavior_pointer: 0xA7D2
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x01
   entity_id: 0x30
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xCD
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -5989,14 +5989,14 @@
   field_0E: 0x00
   field_0F: 0x30
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x2F
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xCE
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6018,14 +6018,14 @@
   field_0E: 0x0D
   field_0F: 0x30
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x23
   entity_id: 0x2F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xCF
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6047,14 +6047,14 @@
   field_0E: 0x1A
   field_0F: 0x30
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x19
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0xC0
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xD0
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6076,14 +6076,14 @@
   field_0E: 0x2D
   field_0F: 0x30
   lair_behavior_pointer: 0xA7D2
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x0F
   entity_id: 0x30
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xD1
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6105,14 +6105,14 @@
   field_0E: 0x2B
   field_0F: 0x3F
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x2F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xD2
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6134,14 +6134,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x1E
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xD3
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6163,14 +6163,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x1E
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xD4
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6192,14 +6192,14 @@
   field_0E: 0x00
   field_0F: 0x40
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x32
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xD5
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6221,14 +6221,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x1E
   entity_id: 0x33
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xD6
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6250,14 +6250,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x14
   entity_id: 0x33
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xD7
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6279,14 +6279,14 @@
   field_0E: 0x06
   field_0F: 0x40
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x36
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xD8
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6308,14 +6308,14 @@
   field_0E: 0x01
   field_0F: 0x01
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x00
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xD9
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6337,14 +6337,14 @@
   field_0E: 0x06
   field_0F: 0x46
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x3C
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xDA
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6366,14 +6366,14 @@
   field_0E: 0x0C
   field_0F: 0x40
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x14
   entity_id: 0x33
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xDB
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6395,14 +6395,14 @@
   field_0E: 0x00
   field_0F: 0x60
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x33
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xDC
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6424,14 +6424,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x1E
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xDD
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6453,14 +6453,14 @@
   field_0E: 0x01
   field_0F: 0x40
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x14
   entity_id: 0x36
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xDE
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6482,14 +6482,14 @@
   field_0E: 0x10
   field_0F: 0x50
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x33
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xDF
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6511,14 +6511,14 @@
   field_0E: 0x00
   field_0F: 0x40
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x14
   entity_id: 0x32
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xE0
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6540,14 +6540,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x2A
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xE1
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6569,14 +6569,14 @@
   field_0E: 0x00
   field_0F: 0x50
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x32
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xE2
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6598,14 +6598,14 @@
   field_0E: 0x20
   field_0F: 0x58
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xE3
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6627,14 +6627,14 @@
   field_0E: 0x00
   field_0F: 0x41
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x07
   spawn_rate: 0x19
   entity_id: 0x36
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xE4
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6656,14 +6656,14 @@
   field_0E: 0x00
   field_0F: 0x40
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x14
   entity_id: 0x33
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xE5
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6685,14 +6685,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x00
   entity_id: 0x36
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xE6
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6714,14 +6714,14 @@
   field_0E: 0x20
   field_0F: 0x40
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x00
   spawn_rate: 0x01
   entity_id: 0x00
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xE7
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6743,14 +6743,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA813
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x36
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xE8
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6772,14 +6772,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x2F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xE9
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6801,14 +6801,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x30
   entity_id: 0x2E
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xEA
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6830,14 +6830,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA7D2
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x01
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xEB
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6859,14 +6859,14 @@
   field_0E: 0x10
   field_0F: 0x31
   lair_behavior_pointer: 0xA7D2
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x14
   entity_id: 0x2D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xEC
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6888,14 +6888,14 @@
   field_0E: 0x20
   field_0F: 0x30
   lair_behavior_pointer: 0xA813
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x00
   entity_id: 0x30
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xED
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6917,14 +6917,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x6C
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xEE
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6946,14 +6946,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x50
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xEF
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -6975,14 +6975,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x50
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xF0
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -7004,14 +7004,14 @@
   field_0E: 0x00
   field_0F: 0x60
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x00
   entity_id: 0x32
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xF1
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -7033,14 +7033,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x00
   entity_id: 0x36
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xF2
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -7062,14 +7062,14 @@
   field_0E: 0x00
   field_0F: 0x66
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x36
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xF3
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -7091,14 +7091,14 @@
   field_0E: 0x10
   field_0F: 0x66
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xF4
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -7120,14 +7120,14 @@
   field_0E: 0x06
   field_0F: 0x60
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x3C
   entity_id: 0x36
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xF5
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -7149,14 +7149,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x64
   entity_id: 0x32
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xF6
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -7178,14 +7178,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x14
   entity_id: 0x32
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xF7
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -7207,14 +7207,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x32
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xF8
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -7236,14 +7236,14 @@
   field_0E: 0x01
   field_0F: 0x41
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x23
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xF9
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -7265,14 +7265,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x50
   entity_id: 0x36
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xFA
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -7294,14 +7294,14 @@
   field_0E: 0x10
   field_0F: 0x40
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x32
   entity_id: 0x36
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xFB
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -7323,14 +7323,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x32
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xFC
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -7352,14 +7352,14 @@
   field_0E: 0x21
   field_0F: 0x40
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x00
   entity_id: 0x32
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xFD
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -7381,14 +7381,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x27
   entity_id: 0x36
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xFE
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -7410,14 +7410,14 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x00
   entity_id: 0x33
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xFF
   field_1B: 0x00
   field_1C: 0x00
   field_1D: 0x00
@@ -7439,15 +7439,15 @@
   field_0E: 0x30
   field_0F: 0x40
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x33
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
+  lair_reward_id: 0xFD
   lair_reward_operand: 0x00
-  field_1B: 0x00
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -7468,15 +7468,15 @@
   field_0E: 0x00
   field_0F: 0x40
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x1E
   entity_id: 0x36
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x01
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -7497,15 +7497,15 @@
   field_0E: 0x2A
   field_0F: 0x40
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x28
   entity_id: 0x37
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x02
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -7526,15 +7526,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x23
   entity_id: 0x38
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x03
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -7555,15 +7555,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x01
   entity_id: 0xFF
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x04
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -7584,15 +7584,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x01
   entity_id: 0xFF
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x05
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -7613,15 +7613,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x01
   entity_id: 0xFF
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x06
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -7642,15 +7642,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x01
   entity_id: 0xFF
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x07
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -7671,15 +7671,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x01
   entity_id: 0xFF
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x08
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -7700,15 +7700,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x31
   entity_id: 0x20
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x09
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -7729,15 +7729,15 @@
   field_0E: 0x00
   field_0F: 0x40
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x28
   entity_id: 0x24
   field_16: 0x00
   orientation: 0x40
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x0A
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -7758,15 +7758,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x50
   entity_id: 0x24
   field_16: 0x00
   orientation: 0x40
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x0B
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -7787,15 +7787,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x32
   entity_id: 0x1F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x0C
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -7816,15 +7816,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x24
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x0D
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -7845,15 +7845,15 @@
   field_0E: 0x02
   field_0F: 0x40
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x1E
   entity_id: 0x22
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x0E
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -7874,15 +7874,15 @@
   field_0E: 0x10
   field_0F: 0x40
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x33
   entity_id: 0x22
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x0F
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -7903,15 +7903,15 @@
   field_0E: 0x1B
   field_0F: 0x40
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x21
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x10
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -7932,15 +7932,15 @@
   field_0E: 0x01
   field_0F: 0x40
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x3C
   entity_id: 0x1F
   field_16: 0x00
   orientation: 0x40
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x11
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -7961,15 +7961,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x34
   entity_id: 0x24
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x12
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -7990,15 +7990,15 @@
   field_0E: 0x26
   field_0F: 0x40
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x35
   entity_id: 0x22
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x13
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8019,15 +8019,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x36
   entity_id: 0x20
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x14
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8048,15 +8048,15 @@
   field_0E: 0x30
   field_0F: 0x40
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x21
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x15
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8077,15 +8077,15 @@
   field_0E: 0x30
   field_0F: 0x40
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x28
   entity_id: 0x21
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x16
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8106,15 +8106,15 @@
   field_0E: 0x30
   field_0F: 0x40
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x37
   entity_id: 0x22
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x17
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8135,15 +8135,15 @@
   field_0E: 0x3C
   field_0F: 0x40
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x38
   entity_id: 0x20
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x18
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8164,15 +8164,15 @@
   field_0E: 0x34
   field_0F: 0x46
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x14
   entity_id: 0x1F
   field_16: 0x00
   orientation: 0xC0
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x19
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8193,15 +8193,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x1E
   entity_id: 0x1F
   field_16: 0x00
   orientation: 0xC0
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x1A
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8222,15 +8222,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x28
   entity_id: 0x24
   field_16: 0x00
   orientation: 0x40
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x1B
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8251,15 +8251,15 @@
   field_0E: 0x00
   field_0F: 0x60
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x21
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x1C
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8280,15 +8280,15 @@
   field_0E: 0x10
   field_0F: 0x60
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x38
   entity_id: 0x24
   field_16: 0x00
   orientation: 0x40
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x1D
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8309,15 +8309,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x38
   entity_id: 0x24
   field_16: 0x00
   orientation: 0x80
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x1E
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8338,15 +8338,15 @@
   field_0E: 0x01
   field_0F: 0x60
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x32
   entity_id: 0x1F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x1F
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8367,15 +8367,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x39
   entity_id: 0x20
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x20
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8396,15 +8396,15 @@
   field_0E: 0x05
   field_0F: 0x60
   lair_behavior_pointer: 0xA7D2
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x50
   entity_id: 0x24
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x21
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8425,15 +8425,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x21
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x22
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x01
   lair_dependency: 0x00
@@ -8454,15 +8454,15 @@
   field_0E: 0x0B
   field_0F: 0x60
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x3A
   entity_id: 0x20
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x23
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8483,15 +8483,15 @@
   field_0E: 0x00
   field_0F: 0x65
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x21
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x24
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8512,15 +8512,15 @@
   field_0E: 0x06
   field_0F: 0x65
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x32
   entity_id: 0x22
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x25
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8541,15 +8541,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x32
   entity_id: 0x22
   field_16: 0x00
   orientation: 0xC0
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x26
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8570,15 +8570,15 @@
   field_0E: 0x04
   field_0F: 0x52
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x2D
   entity_id: 0x21
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x27
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8599,15 +8599,15 @@
   field_0E: 0x16
   field_0F: 0x60
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x3B
   entity_id: 0x20
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x28
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8628,15 +8628,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x3C
   entity_id: 0x20
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x29
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8657,15 +8657,15 @@
   field_0E: 0x10
   field_0F: 0x69
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x28
   entity_id: 0x1F
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x2A
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8686,15 +8686,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x01
   entity_id: 0xFF
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x2B
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8715,15 +8715,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x01
   entity_id: 0xFF
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x2C
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8744,15 +8744,15 @@
   field_0E: 0x00
   field_0F: 0x40
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x32
   entity_id: 0x21
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x2D
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8773,15 +8773,15 @@
   field_0E: 0x05
   field_0F: 0x40
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x3D
   entity_id: 0x22
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x2E
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8802,15 +8802,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x6C
   entity_id: 0x1E
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x2F
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8831,15 +8831,15 @@
   field_0E: 0x23
   field_0F: 0x3A
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x21
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x30
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8860,15 +8860,15 @@
   field_0E: 0x3D
   field_0F: 0x0F
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x32
   entity_id: 0x21
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x31
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8889,15 +8889,15 @@
   field_0E: 0x28
   field_0F: 0x49
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x3E
   entity_id: 0x20
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x32
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8918,15 +8918,15 @@
   field_0E: 0x2F
   field_0F: 0x40
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x3C
   entity_id: 0x24
   field_16: 0x00
   orientation: 0x40
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x33
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8947,15 +8947,15 @@
   field_0E: 0x20
   field_0F: 0x40
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x3F
   entity_id: 0x20
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x34
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -8976,15 +8976,15 @@
   field_0E: 0x20
   field_0F: 0x50
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x23
   entity_id: 0x21
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x35
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9005,15 +9005,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x40
   entity_id: 0x22
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x36
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9034,15 +9034,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x27
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x37
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9063,15 +9063,15 @@
   field_0E: 0x2C
   field_0F: 0x04
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x1E
   entity_id: 0x27
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x38
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9092,15 +9092,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x26
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x39
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9121,15 +9121,15 @@
   field_0E: 0x03
   field_0F: 0x42
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x19
   entity_id: 0x25
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x3A
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9150,15 +9150,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x0A
   spawn_rate: 0x00
   entity_id: 0x25
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x3B
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9179,15 +9179,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x41
   entity_id: 0x26
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x3C
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9208,15 +9208,15 @@
   field_0E: 0x35
   field_0F: 0x2B
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x25
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x3D
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9237,15 +9237,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x42
   entity_id: 0x26
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x3E
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9266,15 +9266,15 @@
   field_0E: 0x17
   field_0F: 0x36
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x25
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x3F
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9295,15 +9295,15 @@
   field_0E: 0x00
   field_0F: 0x41
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x26
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x40
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9324,15 +9324,15 @@
   field_0E: 0x09
   field_0F: 0x40
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x43
   entity_id: 0x28
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x41
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9353,15 +9353,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x00
   entity_id: 0x25
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x42
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9382,15 +9382,15 @@
   field_0E: 0x22
   field_0F: 0x43
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x27
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x43
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9411,15 +9411,15 @@
   field_0E: 0x2A
   field_0F: 0x40
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x00
   entity_id: 0x25
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x44
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9440,15 +9440,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x44
   entity_id: 0x26
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x45
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9469,15 +9469,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x01
   entity_id: 0xFF
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x46
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9498,15 +9498,15 @@
   field_0E: 0x3A
   field_0F: 0x0E
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x25
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x47
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9527,15 +9527,15 @@
   field_0E: 0x32
   field_0F: 0x45
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x45
   entity_id: 0x26
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x48
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9556,15 +9556,15 @@
   field_0E: 0x22
   field_0F: 0x38
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x50
   entity_id: 0x27
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x49
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9585,15 +9585,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x00
   entity_id: 0x28
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x4A
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9614,15 +9614,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x00
   entity_id: 0x28
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x4B
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x01
   lair_dependency: 0x00
@@ -9643,15 +9643,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x46
   entity_id: 0x26
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x4C
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9672,15 +9672,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x19
   entity_id: 0x25
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x4D
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9701,15 +9701,15 @@
   field_0E: 0x00
   field_0F: 0x40
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x3C
   entity_id: 0x27
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x4E
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9730,15 +9730,15 @@
   field_0E: 0x20
   field_0F: 0x40
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x47
   entity_id: 0x28
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x4F
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9759,15 +9759,15 @@
   field_0E: 0x1E
   field_0F: 0x40
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x0A
   spawn_rate: 0x00
   entity_id: 0x26
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x50
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9788,15 +9788,15 @@
   field_0E: 0x1D
   field_0F: 0x43
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x08
   spawn_rate: 0x00
   entity_id: 0x27
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x51
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9817,15 +9817,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x1E
   entity_id: 0x25
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x52
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9846,15 +9846,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x48
   entity_id: 0x25
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x53
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9875,15 +9875,15 @@
   field_0E: 0x30
   field_0F: 0x40
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x1E
   entity_id: 0x26
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x54
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9904,15 +9904,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x49
   entity_id: 0x28
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x55
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9933,15 +9933,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x01
   entity_id: 0xFF
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x56
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9962,15 +9962,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x01
   entity_id: 0xFF
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x57
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -9991,15 +9991,15 @@
   field_0E: 0x2D
   field_0F: 0x36
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x00
   entity_id: 0x0C
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x58
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10020,15 +10020,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x4A
   entity_id: 0x10
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x59
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10049,15 +10049,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x00
   entity_id: 0x0D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x5A
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10078,15 +10078,15 @@
   field_0E: 0x10
   field_0F: 0x31
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x4B
   entity_id: 0x10
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x5B
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10107,15 +10107,15 @@
   field_0E: 0x00
   field_0F: 0x31
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x6A
   entity_id: 0x10
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x5C
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10136,15 +10136,15 @@
   field_0E: 0x27
   field_0F: 0x30
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x50
   entity_id: 0x0D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x5D
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10165,15 +10165,15 @@
   field_0E: 0x00
   field_0F: 0x30
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x4C
   entity_id: 0x10
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x5E
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10194,15 +10194,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x0D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x5F
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10223,15 +10223,15 @@
   field_0E: 0x04
   field_0F: 0x30
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x4D
   entity_id: 0x10
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x60
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10252,15 +10252,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x00
   entity_id: 0x0D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x61
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10281,15 +10281,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x00
   entity_id: 0x0D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x62
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10310,15 +10310,15 @@
   field_0E: 0x01
   field_0F: 0x01
   lair_behavior_pointer: 0xA813
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x00
   entity_id: 0x0C
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x63
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10339,15 +10339,15 @@
   field_0E: 0x20
   field_0F: 0x30
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x4E
   entity_id: 0x10
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x64
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10368,15 +10368,15 @@
   field_0E: 0x25
   field_0F: 0x30
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x4F
   entity_id: 0x0C
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x65
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10397,15 +10397,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x00
   entity_id: 0x0C
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x66
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10426,15 +10426,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x1E
   entity_id: 0x0D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x67
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10455,15 +10455,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x50
   entity_id: 0x10
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x68
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x167
@@ -10484,15 +10484,15 @@
   field_0E: 0x10
   field_0F: 0x40
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x6B
   entity_id: 0x10
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x69
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10513,15 +10513,15 @@
   field_0E: 0x00
   field_0F: 0x40
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x50
   entity_id: 0x0D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x6A
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10542,15 +10542,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x0D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x6B
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10571,15 +10571,15 @@
   field_0E: 0x20
   field_0F: 0x40
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x00
   entity_id: 0x0C
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x6C
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10600,15 +10600,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x00
   entity_id: 0x0C
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x6D
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10629,15 +10629,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x00
   entity_id: 0x0C
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x6E
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10658,15 +10658,15 @@
   field_0E: 0x30
   field_0F: 0x40
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x51
   entity_id: 0x10
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x6F
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10687,15 +10687,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x23
   entity_id: 0x0D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x70
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x167
@@ -10716,15 +10716,15 @@
   field_0E: 0x30
   field_0F: 0x49
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x00
   entity_id: 0x0C
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x71
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10745,15 +10745,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x52
   entity_id: 0x0D
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x72
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10774,15 +10774,15 @@
   field_0E: 0x08
   field_0F: 0x05
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x54
   entity_id: 0x12
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x73
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10803,15 +10803,15 @@
   field_0E: 0x08
   field_0F: 0x05
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x55
   entity_id: 0x17
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x74
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10832,15 +10832,15 @@
   field_0E: 0x09
   field_0F: 0x1B
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x28
   entity_id: 0x11
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x75
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10861,15 +10861,15 @@
   field_0E: 0x01
   field_0F: 0x21
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x56
   entity_id: 0x11
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x76
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10890,15 +10890,15 @@
   field_0E: 0x08
   field_0F: 0x05
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x17
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x77
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10919,15 +10919,15 @@
   field_0E: 0x14
   field_0F: 0x1B
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x32
   entity_id: 0x17
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x78
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10948,15 +10948,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x00
   entity_id: 0x12
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x79
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -10977,15 +10977,15 @@
   field_0E: 0x14
   field_0F: 0x11
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x11
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x7A
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11006,15 +11006,15 @@
   field_0E: 0x1A
   field_0F: 0x14
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x11
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x7B
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11035,15 +11035,15 @@
   field_0E: 0x0C
   field_0F: 0x25
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x12
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x7C
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11064,15 +11064,15 @@
   field_0E: 0x11
   field_0F: 0x26
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x28
   entity_id: 0x11
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x7D
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11093,15 +11093,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x57
   entity_id: 0x16
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x7E
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x167
@@ -11122,15 +11122,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x12
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x7F
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11151,15 +11151,15 @@
   field_0E: 0x00
   field_0F: 0x20
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x58
   entity_id: 0x11
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x80
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11180,15 +11180,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x59
   entity_id: 0x12
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x81
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11209,15 +11209,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x5A
   entity_id: 0x12
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x82
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11238,15 +11238,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x5B
   entity_id: 0x11
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x83
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11267,15 +11267,15 @@
   field_0E: 0x01
   field_0F: 0x01
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x5C
   entity_id: 0x11
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x84
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11296,15 +11296,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x5D
   entity_id: 0x16
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x85
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x16B
@@ -11325,15 +11325,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x5E
   entity_id: 0x12
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x86
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x179
@@ -11354,15 +11354,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x5F
   entity_id: 0x17
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x87
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11383,15 +11383,15 @@
   field_0E: 0x00
   field_0F: 0x20
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x60
   entity_id: 0x16
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x88
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11412,15 +11412,15 @@
   field_0E: 0x00
   field_0F: 0x20
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x28
   entity_id: 0x11
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x89
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11441,15 +11441,15 @@
   field_0E: 0x00
   field_0F: 0x20
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x00
   entity_id: 0x12
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x8A
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11470,15 +11470,15 @@
   field_0E: 0x01
   field_0F: 0x20
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x14
   entity_id: 0x12
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x8B
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11499,15 +11499,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x61
   entity_id: 0x17
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x8C
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11528,15 +11528,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA813
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x00
   entity_id: 0x16
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x8D
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11557,15 +11557,15 @@
   field_0E: 0x17
   field_0F: 0x20
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x00
   entity_id: 0x12
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x8E
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11586,15 +11586,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x32
   entity_id: 0x17
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x8F
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x187
@@ -11615,15 +11615,15 @@
   field_0E: 0x02
   field_0F: 0x21
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x62
   entity_id: 0x17
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x90
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11644,15 +11644,15 @@
   field_0E: 0x11
   field_0F: 0x20
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x05
   spawn_rate: 0x63
   entity_id: 0x16
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x91
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11673,15 +11673,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x0F
   entity_id: 0x12
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x92
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11702,15 +11702,15 @@
   field_0E: 0x00
   field_0F: 0x20
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x64
   entity_id: 0x12
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x93
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11731,15 +11731,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x01
   entity_id: 0xFF
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x94
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11760,15 +11760,15 @@
   field_0E: 0x00
   field_0F: 0x00
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x01
   spawn_rate: 0x6F
   entity_id: 0x09
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x95
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x18C
@@ -11789,15 +11789,15 @@
   field_0E: 0x13
   field_0F: 0x0D
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x0B
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x96
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11818,15 +11818,15 @@
   field_0E: 0x00
   field_0F: 0x60
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x65
   entity_id: 0x0A
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x97
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11847,15 +11847,15 @@
   field_0E: 0x13
   field_0F: 0x0D
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x0A
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x98
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11876,15 +11876,15 @@
   field_0E: 0x13
   field_0F: 0x0D
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x00
   entity_id: 0x0B
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x99
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11905,15 +11905,15 @@
   field_0E: 0x13
   field_0F: 0x0D
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x66
   entity_id: 0x0A
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x9A
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11934,15 +11934,15 @@
   field_0E: 0x13
   field_0F: 0x0D
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x00
   entity_id: 0x0B
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x9B
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11963,15 +11963,15 @@
   field_0E: 0x13
   field_0F: 0x0D
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x02
   spawn_rate: 0x00
   entity_id: 0x0B
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x9C
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -11992,15 +11992,15 @@
   field_0E: 0x13
   field_0F: 0x0D
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x67
   entity_id: 0x0A
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x9D
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -12021,15 +12021,15 @@
   field_0E: 0x04
   field_0F: 0x40
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x00
   entity_id: 0x0B
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x9E
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -12050,15 +12050,15 @@
   field_0E: 0x04
   field_0F: 0x40
   lair_behavior_pointer: 0xA813
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x03
   spawn_rate: 0x00
   entity_id: 0x0B
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0x9F
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -12079,15 +12079,15 @@
   field_0E: 0x0C
   field_0F: 0x28
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x68
   entity_id: 0x0A
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xA0
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -12108,15 +12108,15 @@
   field_0E: 0x0C
   field_0F: 0x28
   lair_behavior_pointer: 0xA752
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x04
   spawn_rate: 0x69
   entity_id: 0x0A
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xA1
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -12137,15 +12137,15 @@
   field_0E: 0x00
   field_0F: 0x40
   lair_behavior_pointer: 0xA71B
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x1E
   entity_id: 0x0A
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xA2
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00
@@ -12166,15 +12166,15 @@
   field_0E: 0x0F
   field_0F: 0x17
   lair_behavior_pointer: 0xA6F3
-  lair_behavior_pointer_bank: 0x00
+  lair_behavior_pointer_bank: 0x80
   enemy_count: 0x06
   spawn_rate: 0x14
   entity_id: 0x0B
   field_16: 0x00
   orientation: 0x00
-  lair_reward_id: 0x00
-  lair_reward_operand: 0x00
-  field_1B: 0x00
+  lair_reward_id: 0xFD
+  lair_reward_operand: 0xA3
+  field_1B: 0x01
   field_1C: 0x00
   field_1D: 0x00
   lair_dependency: 0x00

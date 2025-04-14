@@ -8,7 +8,7 @@ from .Data.ItemData import items_data
 from .Data.LocationData import locations_data
 from .Data.Enums import LocationType, ItemID
 from .Util import encode_string, is_bit_set, Rectangle
-from .Data.Lair import LairData, unpack_lair_data
+from .Data.Lair import LairDataRaw, unpack_lair_data
 from .Data.Entity import EntityData, unpack_entity_data
 from NetUtils import ClientStatus, color, NetworkItem
 from worlds.AutoSNIClient import SNIClient
@@ -49,7 +49,7 @@ class SoulBlazerSNIClient(SNIClient):
 
     def __init__(self) -> None:
         super().__init__()
-        self.lair_data: list[LairData] = []
+        self.lair_data: list[LairDataRaw] = []
         self.entity_list: list[EntityData] = []
         self.lairs_for_map: dict[int, set[int]] = {}
         self.lairs_rom_name: bytes = bytes(0)
