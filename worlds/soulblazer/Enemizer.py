@@ -261,6 +261,7 @@ SPAWN_RATE_MIN = 0x03
 SPAWN_RATE_MAX = 0x20
 SPAWN_RATE_SLOW_ADJUST = 0x10
 
+
 def can_randomize_orientation(act: LairAct, enemy: EnemyType) -> bool:
     return (
         (act == LairAct.GREENWOOD and enemy == EnemyType.ACT2_WATER_DRAGON)
@@ -383,6 +384,7 @@ def randomize_lair_enemies(random: Random, lair: LairDataRaw, lair_id: int) -> L
 
     return lair._replace(entity_id=enemy, orientation=orientation)
 
+
 def randomize_lair_type(random: Random, lair: LairDataRaw) -> LairDataRaw:
     lair_type = lair.lair_behavior_pointer
 
@@ -392,8 +394,9 @@ def randomize_lair_type(random: Random, lair: LairDataRaw) -> LairDataRaw:
         lair_type = int(random.choices(randomizable_lair_types, randomizable_lair_weights))
     else:
         return lair
-    
+
     return lair._replace(lair_behavior_pointer=lair_type)
+
 
 def randomize_lair_number_enemies(random: Random, lair: LairDataRaw) -> LairDataRaw:
     num_enemies = lair.enemy_count
@@ -410,6 +413,7 @@ def randomize_lair_number_enemies(random: Random, lair: LairDataRaw) -> LairData
 
     return lair._replace(enemy_count=num_enemies)
 
+
 def randomize_lair_spawn_rate(random: Random, lair: LairDataRaw) -> LairDataRaw:
     spawn_rate = lair.spawn_rate
 
@@ -421,6 +425,7 @@ def randomize_lair_spawn_rate(random: Random, lair: LairDataRaw) -> LairDataRaw:
         return lair
 
     return lair._replace(spawn_rate=spawn_rate)
+
 
 def randomize_prespawned_enemies(random: Random):
     # TODO: port this functionality.
