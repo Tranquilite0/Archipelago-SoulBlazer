@@ -1,21 +1,31 @@
 from typing import NamedTuple
 import struct
 from yaml import Dumper, SafeDumper, safe_dump
+from enum import IntEnum
+from Utils import parse_yaml
+from ..Data import get_data_file_bytes, list_from_yaml
+
+lair_data_address: int = 0xBA0D
+lair_count: int = 420
 
 lair_struct = struct.Struct("<16B1H8B1H2B1H")
 
+
 class HexInt(int):
     """Represents integers as hexadecimal."""
+
     def __repr__(self):
-        return f'0x{self:02X}'
+        return f"0x{self:02X}"
 
 
 def represent_hexint(dumper: Dumper, data):
-    return dumper.represent_scalar('tag:yaml.org,2002:int', repr(data))
+    return dumper.represent_scalar("tag:yaml.org,2002:int", repr(data))
+
 
 SafeDumper.add_representer(HexInt, represent_hexint)
 
-class LairData(NamedTuple):
+
+class LairDataRaw(NamedTuple):
     """32-byte Lair Data structure."""
 
     release_map: int
@@ -76,12 +86,12 @@ class LairData(NamedTuple):
     lair_behavior_pointer: int
     """
     Lair Behavior Pointer. 2 bytes.
-    0x000000: Pre-cleared.
-    0x00A6F3: One by one.
-    0x00A71B: Multispawn.
-    0x00A752: Aleady there.
-    0x00A7D2: Two up, two down.
-    0x00A813: One by one (proximity).
+    0x0000: Pre-cleared.
+    0xA6F3: One by one.
+    0xA71B: Multispawn.
+    0xA752: Aleady there.
+    0xA7D2: Two up, two down.
+    0xA813: One by one (proximity).
     """
     lair_behavior_pointer_bank: int
     """
@@ -112,25 +122,45 @@ class LairData(NamedTuple):
     lair_dependency: int
     """Lair ID of NPC this lair is dependent on. 2 bytes."""
 
-def unpack_lair_data(buffer) -> list[LairData]:
-    return [LairData._make(data) for data in lair_struct.iter_unpack(buffer)]
+    @staticmethod
+    def from_yaml(yaml: any) -> "LairDataRaw":
+        assert isinstance(yaml, dict)
+        return LairDataRaw(**yaml)
+
+
+def unpack_lair_data(buffer) -> list[LairDataRaw]:
+    return [LairDataRaw._make(data) for data in lair_struct.iter_unpack(buffer)]
+
 
 # TODO: unsure if this is the correct syntax. Verify.
-def pack_lair_data(buffer, offset: int, *lair_data: LairData) -> None:
+def pack_lair_data(buffer, offset: int, *lair_data: LairDataRaw) -> None:
     lair_struct.pack_into(buffer, offset, lair_data)
     return
 
-def lair_data_representer(dumper:Dumper, data):
-    as_hex_int = LairData(*[HexInt(i) for i in data])
+
+def lair_data_representer(dumper: Dumper, data):
+    as_hex_int = LairDataRaw(*[HexInt(i) for i in data])
     return dumper.represent_dict(as_hex_int._asdict())
 
-SafeDumper.add_multi_representer(LairData, lair_data_representer)
 
-if __name__ == '__main__':
-    with open('Soul Blazer (U).sfc', 'rb') as rom:
-        rom.seek(0xBA0D)
-        lair_bytes = rom.read(32 * 420)
-        lair_data = unpack_lair_data(lair_bytes)
-        with open('LairData.yaml', 'w') as yaml:
-            safe_dump(lair_data, yaml, sort_keys=False)
-            
+SafeDumper.add_multi_representer(LairDataRaw, lair_data_representer)
+
+
+def read_lair_data_from_rom(rom_path: str) -> list[LairDataRaw]:
+    with open(rom_path, "rb") as rom:
+        rom.seek(lair_data_address)
+
+        lair_bytes = rom.read(lair_struct.size * lair_count)
+        return unpack_lair_data(lair_bytes)
+
+lair_yaml_bytes = get_data_file_bytes("LairData.yaml")
+lair_yaml = parse_yaml(lair_yaml_bytes)
+lair_data: LairDataRaw = list_from_yaml(lair_yaml, LairDataRaw.from_yaml)
+
+if __name__ == "__main__":
+    import sys
+
+    lair_data = read_lair_data_from_rom(sys.argv[1])
+
+    with open("LairData.yaml", "w") as yaml:
+        safe_dump(lair_data, yaml, sort_keys=False)
