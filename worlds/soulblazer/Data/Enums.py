@@ -669,7 +669,7 @@ class LairAct(IntEnum):
 
 class LairBehavior(IntEnum):
     PRE_CLEARED = 0x0000
-    ONR_BY_ONE = 0xA6F3
+    ONE_BY_ONE = 0xA6F3
     MULTISPAWN = 0xA71B
     ALREADY_THERE = 0xA752
     TWO_UP_TWO_DOWN = 0xA7D2
