@@ -8,7 +8,7 @@ from .Client import SoulBlazerSNIClient
 from .Data.Enums import ItemID, ChestID, NPCRewardID, SoulID
 from .Data.ItemData import items_data
 from .Data.LocationData import locations_data
-from .Options import SoulBlazerOptions
+from .Options import SoulBlazerOptions, soulblazer_option_groups
 from .Items import (
     SoulBlazerItem,
     sword_names,
@@ -57,6 +57,8 @@ class SoulBlazerWeb(WebWorld):
     location_descriptions: dict[str, str] = {data.name: data.description for data in locations_data.all_locations}
 
     item_descriptions: dict[str, str] = {data.name: data.description for data in items_data.all_items}
+
+    option_groups = soulblazer_option_groups
 
 
 class SoulBlazerWorld(World):

@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from Options import Toggle, Range, Choice, PerGameCommonOptions
+from Options import Toggle, Range, Choice, PerGameCommonOptions, OptionGroup
 
 
 class TextSpeed(Choice):
@@ -84,7 +84,7 @@ class StartingSword(Choice):
     """
 
     display_name = "Starting Sword"
-    
+
     option_vanilla = 0
     option_psycho_sword = 1
     option_critical_sword = 2
@@ -94,7 +94,7 @@ class StartingSword(Choice):
     option_recovery_sword = 6
     option_soul_blade = 7
     option_randomized = 8
-    
+
     default = 0
 
 
@@ -222,15 +222,56 @@ class RandomizePreSpawnedEnemies(Toggle):
 # It has to be derived from 'PerGameCommonOptions'.
 @dataclass
 class SoulBlazerOptions(PerGameCommonOptions):
-    text_speed: TextSpeed
     goal: Goal
     act_progression: ActProgression
     stones_placement: StonesPlacement
     stones_count: StonesCount
     open_deathtoll: OpenDeathToll
     starting_sword: StartingSword
-    equipment_stats: EquipmentStats
-    equipment_scaling: EquipmentScaling
     magician_item: MagicianItem
     magician_soul: MagicianSoul
+    text_speed: TextSpeed
+    equipment_stats: EquipmentStats
+    equipment_scaling: EquipmentScaling
     gem_exp_pool: GemExpPool
+    randomize_lair_enemies: RandomizeLairEnemies
+    randomize_lair_type: RandomizeLairType
+    randomize_lair_number_of_enemies: RandomizeLairNumberOfEnemies
+    randomize_lair_spawn_rate: RandomizeLairSpawnRate
+    randomize_pre_spawned_enemies: RandomizePreSpawnedEnemies
+
+
+soulblazer_option_groups: list[OptionGroup] = [
+    OptionGroup(
+        "World Options",
+        [
+            Goal,
+            ActProgression,
+            StonesPlacement,
+            StonesCount,
+            OpenDeathToll,
+            StartingSword,
+            MagicianItem,
+            MagicianSoul,
+        ],
+    ),
+    OptionGroup(
+        "QOL Options",
+        [
+            TextSpeed,
+            EquipmentStats,
+            EquipmentScaling,
+            GemExpPool,
+        ],
+    ),
+    OptionGroup(
+        "Enemizer",
+        [
+            RandomizeLairEnemies,
+            RandomizeLairType,
+            RandomizeLairNumberOfEnemies,
+            RandomizeLairSpawnRate,
+            RandomizePreSpawnedEnemies,
+        ],
+    ),
+]
