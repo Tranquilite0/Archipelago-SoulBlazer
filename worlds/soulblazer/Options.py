@@ -177,6 +177,47 @@ class GemExpPool(Choice):
     default = 2
 
 
+class RandomizeLairEnemies(Toggle):
+    """
+    Randomize enemies spawned from lairs.
+    """
+
+    display_name = "Randomize Lair Enemies"
+
+
+class RandomizeLairType(Toggle):
+    """
+    Randomize how lairs spawn enemies (multi-spawn, one-by-one, proximity, etc).
+    """
+
+    display_name = "Randomize Lair Type"
+
+
+class RandomizeLairNumberOfEnemies(Toggle):
+    """
+    Randomize number of enemies spawned from lairs.
+    """
+
+    display_name = "Randomize Lair Number of Enemies"
+
+
+class RandomizeLairSpawnRate(Toggle):
+    """
+    Randomize how fast enemies are spawned from lairs.
+    """
+
+    display_name = "Randomize Lair Spawn Rate"
+
+
+class RandomizePreSpawnedEnemies(Toggle):
+    """
+    Randomize pre-spawned enemies which are already on the map.
+    **Not currently implemented!**
+    """
+
+    display_name = "Randomize Pre-Spawned Enemies"
+
+
 # By convention, we call the options dataclass `<world>Options`.
 # It has to be derived from 'PerGameCommonOptions'.
 @dataclass
