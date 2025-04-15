@@ -1,6 +1,10 @@
 from random import Random
 from .Data.Lair import lair_data, LairDataRaw
 from .Data.Enums import LairAct, LairBehavior, EnemyType
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+    from . import SoulBlazerWorld
 
 no_fish_lair_ids: set[int] = {
     125,
@@ -211,18 +215,18 @@ world_of_evil_enemies: list[EnemyType] = [EnemyType.ACT7_DEMON, EnemyType.ACT7_F
 
 world_of_evil_enemies_no_brick: list[EnemyType] = [EnemyType.ACT7_DEMON, EnemyType.ACT7_FLY]
 
-orientations: list[int] = {
+orientations: list[int] = [
     0x00,  # down
     0x40,  # left
     0x80,  # right
     0xC0,  # up
-}
+]
 
-orientations_no_up: list[int] = {
+orientations_no_up: list[int] = [
     0x00,  # down
     0x40,  # left
     0x80,  # right
-}
+]
 
 randomizable_lair_types: list[LairBehavior] = [
     LairBehavior.ONE_BY_ONE,
@@ -389,9 +393,9 @@ def randomize_lair_type(random: Random, lair: LairDataRaw) -> LairDataRaw:
     lair_type = lair.lair_behavior_pointer
 
     if lair_type in randomizable_lair_types_no_two_up:
-        lair_type = int(random.choices(randomizable_lair_types_no_two_up, randomizable_lair_weights_no_two_up))
+        lair_type = int(random.choices(randomizable_lair_types_no_two_up, randomizable_lair_weights_no_two_up)[0])
     elif lair_type == LairBehavior.TWO_UP_TWO_DOWN:
-        lair_type = int(random.choices(randomizable_lair_types, randomizable_lair_weights))
+        lair_type = int(random.choices(randomizable_lair_types, randomizable_lair_weights)[0])
     else:
         return lair
 
@@ -430,3 +434,19 @@ def randomize_lair_spawn_rate(random: Random, lair: LairDataRaw) -> LairDataRaw:
 def randomize_prespawned_enemies(random: Random):
     # TODO: port this functionality.
     pass
+
+
+def randomize_lair(world: "SoulBlazerWorld", lair: LairDataRaw, lair_id: int) -> LairDataRaw:
+    if world.options.randomize_lair_enemies:
+        lair = randomize_lair_enemies(world.random, lair, lair_id)
+    if world.options.randomize_lair_type:
+        lair = randomize_lair_type(world.random, lair)
+    if world.options.randomize_lair_number_of_enemies:
+        lair = randomize_lair_number_enemies(world.random, lair)
+    if world.options.randomize_lair_spawn_rate:
+        lair = randomize_lair_spawn_rate(world.random, lair)
+    return lair
+
+
+def randomize_world_lairs(world: "SoulBlazerWorld") -> list[LairDataRaw]:
+    return [randomize_lair(world, lair, lair_id) for lair_id, lair in enumerate(lair_data)]

@@ -3,11 +3,13 @@ import settings
 import os
 from hashlib import blake2b
 from Options import PerGameCommonOptions
-from typing import Any, Optional, ClassVar
+from typing import Any, ClassVar
 from .Client import SoulBlazerSNIClient
 from .Data.Enums import ItemID, ChestID, NPCRewardID, SoulID
 from .Data.ItemData import items_data
 from .Data.LocationData import locations_data
+from .Data.Lair import LairDataRaw
+from .Enemizer import randomize_world_lairs
 from .Options import SoulBlazerOptions, soulblazer_option_groups
 from .Items import (
     SoulBlazerItem,
@@ -88,6 +90,7 @@ class SoulBlazerWorld(World):
         self.gem_items: list[SoulBlazerItem]
         self.pre_fill_items: list[Item] = []
         self.rom_name: bytes
+        self.lair_data: list[LairDataRaw]
         # self.set_rules = set_rules
         # self.create_regions = create_regions
 
@@ -100,9 +103,7 @@ class SoulBlazerWorld(World):
     def create_victory_event(self, region: Region) -> Location:
         """Creates the `"Victory"` item/location event pair"""
         victory_loc = Location(self.player, ItemID.VICTORY.full_name, None, region)
-        victory_loc.place_locked_item(
-            Item(ItemID.VICTORY.full_name, ItemClassification.progression, None, self.player)
-        )
+        victory_loc.place_locked_item(Item(ItemID.VICTORY.full_name, ItemClassification.progression, None, self.player))
         return victory_loc
 
     @classmethod
@@ -145,9 +146,7 @@ class SoulBlazerWorld(World):
             magician_item = next(x for x in itempool if x.name == magician_item_name)
             self.pre_fill_items.append(magician_item)
             itempool.remove(magician_item)
-            self.multiworld.get_location(NPCRewardID.MAGICIAN.full_name, self.player).place_locked_item(
-                magician_item
-            )
+            self.multiworld.get_location(NPCRewardID.MAGICIAN.full_name, self.player).place_locked_item(magician_item)
 
         # Magician Soul
         if self.options.magician_soul == "vanilla":
@@ -187,9 +186,7 @@ class SoulBlazerWorld(World):
             # replace it with a "Victory" item
             victory = self.create_item(ItemID.VICTORY.full_name)
             self.pre_fill_items.append(victory)
-            self.multiworld.get_location(NPCRewardID.MASTER_CRYSTAL.full_name, self.player).place_locked_item(
-                victory
-            )
+            self.multiworld.get_location(NPCRewardID.MASTER_CRYSTAL.full_name, self.player).place_locked_item(victory)
         else:
             # Create our regular Victory Event on Deathtoll
             region_deathtoll = self.multiworld.get_region(RegionName.DEATHTOLL, self.player)
@@ -205,6 +202,7 @@ class SoulBlazerWorld(World):
         pass
 
     def generate_basic(self) -> None:
+        self.lair_data = randomize_world_lairs(self)
         pass
 
     def pre_fill(self) -> None:

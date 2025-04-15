@@ -132,10 +132,17 @@ def unpack_lair_data(buffer) -> list[LairDataRaw]:
     return [LairDataRaw._make(data) for data in lair_struct.iter_unpack(buffer)]
 
 
-# TODO: unsure if this is the correct syntax. Verify.
-def pack_lair_data(buffer, offset: int, *lair_data: LairDataRaw) -> None:
-    lair_struct.pack_into(buffer, offset, lair_data)
-    return
+## TODO: This is wrong.
+# def pack_lair_data_into(buffer, offset: int, *lair_data: LairDataRaw) -> None:
+#    lair_struct.pack_into(buffer, offset, *lair_data)
+#    return
+
+
+def pack_lair_data(*lair_data: LairDataRaw) -> bytes:
+    packed_data = b""
+    for lair in lair_data:
+        packed_data += lair_struct.pack(*lair)
+    return packed_data
 
 
 def lair_data_representer(dumper: Dumper, data):
@@ -153,9 +160,10 @@ def read_lair_data_from_rom(rom_path: str) -> list[LairDataRaw]:
         lair_bytes = rom.read(lair_struct.size * lair_count)
         return unpack_lair_data(lair_bytes)
 
+
 lair_yaml_bytes = get_data_file_bytes("LairData.yaml")
 lair_yaml = parse_yaml(lair_yaml_bytes)
-lair_data: LairDataRaw = list_from_yaml(lair_yaml, LairDataRaw.from_yaml)
+lair_data: list[LairDataRaw] = list_from_yaml(lair_yaml, LairDataRaw.from_yaml)
 
 if __name__ == "__main__":
     import sys
