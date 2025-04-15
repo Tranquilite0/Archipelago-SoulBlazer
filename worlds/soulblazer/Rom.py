@@ -14,6 +14,7 @@ from Utils import read_snes_rom
 from worlds.AutoWorld import World
 from worlds.Files import APProcedurePatch, APTokenMixin, APTokenTypes, APPatchExtension
 from .Data.Enums import ItemID, LocationType
+from .Data.Lair import pack_lair_data
 from .Names import Addresses
 from .Items import SoulBlazerItem
 from .Locations import SoulBlazerLocation
@@ -260,6 +261,9 @@ def write_patch(world: "SoulBlazerWorld", patch: SoulBlazerProcedurePatch) -> No
     )
 
     patch.write_token(APTokenTypes.WRITE, Addresses.SNES_ROMNAME_START, world.rom_name)
+
+    # TODO: write lair location items into lair_data?
+    patch.write_token(APTokenTypes.WRITE, Addresses.LAIR_DATA, pack_lair_data(*world.lair_data))
 
     for location in world.multiworld.get_locations(world.player):
         patch.place(location)
