@@ -6,56 +6,25 @@ from typing import TYPE_CHECKING
 if TYPE_CHECKING:
     from . import SoulBlazerWorld
 
-no_fish_lair_ids: set[int] = {
-    125,
-    137,
-    141,
-    147,
-    164,
-    165,
-    169,
-    170,
-    178,
-    186,
-    187,
-    191,
-    192,
-}
+no_fish_lair_ids: set[int] = {125, 137, 141, 147, 164, 165, 169, 170, 178, 186, 187, 191, 192}
 """These lairs can't have fish enemies, or the game crashes."""
 
-no_metal_lair_ids: set[int] = {
-    267,
-    269,
-    270,
-    274,
-    302,
-}
+no_metal_lair_ids: set[int] = {267, 269, 270, 274, 302}
 """Lairs assumed beatable without Zantetsu Sword."""
 
-no_ghost_lair_ids: set[int] = {
-    345,
-    348,
-    350,
-}
+no_ghost_lair_ids: set[int] = {345, 348, 350}
 """Lairs assumed beatable without Spirit Sword."""
 
-must_be_metal_lair_ids: set[int] = {
-    277,
-    308,
-}
+must_be_metal_lair_ids: set[int] = {277, 308}
 """Lairs Logically requiring Zantetsu Sword."""
 
-must_be_ghost_lair_ids: set[int] = {
-    349,
-}
+must_be_ghost_lair_ids: set[int] = {349}
 """Lairs Logically requiring Spirit Sword."""
 
 must_not_enemize_lair_ids: set[int] = {109, 199, 202, 206, 275, 310}
 """Lairs which should not be enemized."""
 
-must_not_be_upwards_lair_ids: set[int] = {
-    71,
-}
+must_not_be_upwards_lair_ids: set[int] = {71}
 """Lairs which cannot have enemies oriented upwards."""
 
 underground_castle_enemies: list[EnemyType] = [
@@ -310,24 +279,28 @@ def randomize_lair_enemies(random: Random, lair: LairDataRaw, lair_id: int) -> L
 
     match lair.act_id:
         case LairAct.GRASS_VALLEY:
-            if enemy == EnemyType.ACT1_SPIKEY or EnemyType.SOLID_ARM:
+            if enemy == EnemyType.ACT1_SPIKEY or enemy == EnemyType.SOLID_ARM:
                 return lair
             pool = underground_castle_enemies if enemy < EnemyType.ACT1_ARMOR else leos_paintings_enemies
 
         case LairAct.GREENWOOD:
-            if enemy == EnemyType.ACT2_SCORPION or EnemyType.ACT2_FIRE_SPIRIT or EnemyType.ELEMENTAL_STATUE:
+            if (
+                enemy == EnemyType.ACT2_SCORPION
+                or enemy == EnemyType.ACT2_FIRE_SPIRIT
+                or enemy == EnemyType.ELEMENTAL_STATUE
+            ):
                 return lair
             pool = (
                 water_shrine_enemies if enemy < EnemyType.ACT2_FIRE_SPIRIT else fire_light_shrine_enemies_no_fire_spirit
             )
 
         case LairAct.ST_ELLES:
-            if enemy == EnemyType.ACT3_METAL_GORILLA or EnemyType.FLOATING_SKULL:
+            if enemy == EnemyType.ACT3_METAL_GORILLA or enemy == EnemyType.FLOATING_SKULL:
                 return lair
             pool = (
                 seabed_enemies
                 if enemy < EnemyType.ACT3_PALM_TREE
-                else island_enemies_no_fish if no_fish_lair_ids(lair_id) else island_enemies
+                else island_enemies_no_fish if lair_id in no_fish_lair_ids else island_enemies
             )
 
         case LairAct.MOUNTAIN_OF_SOULS:
@@ -405,9 +378,15 @@ def randomize_lair_type(random: Random, lair: LairDataRaw) -> LairDataRaw:
 def randomize_lair_number_enemies(random: Random, lair: LairDataRaw) -> LairDataRaw:
     num_enemies = lair.enemy_count
 
-    if lair.lair_behavior_pointer == LairBehavior.ONE_BY_ONE or LairBehavior.ONE_BY_ONE_PROX:
+    if (
+        lair.lair_behavior_pointer == LairBehavior.ONE_BY_ONE
+        or lair.lair_behavior_pointer == LairBehavior.ONE_BY_ONE_PROX
+    ):
         num_enemies = random.randrange(NB_ENEMIES_ONE_BY_ONE_MIN, NB_ENEMIES_ONE_BY_ONE_MAX)
-    elif lair.lair_behavior_pointer == LairBehavior.MULTISPAWN or LairBehavior.TWO_UP_TWO_DOWN:
+    elif (
+        lair.lair_behavior_pointer == LairBehavior.MULTISPAWN
+        or lair.lair_behavior_pointer == LairBehavior.TWO_UP_TWO_DOWN
+    ):
         if lair.entity_id == EnemyType.ACT6_MIMIC:
             num_enemies = random.randrange(NB_ENEMIES_MULTISPAWN_REDUCED_MIN, NB_ENEMIES_MULTISPAWN_REDUCED_MAX)
         else:
@@ -421,7 +400,10 @@ def randomize_lair_number_enemies(random: Random, lair: LairDataRaw) -> LairData
 def randomize_lair_spawn_rate(random: Random, lair: LairDataRaw) -> LairDataRaw:
     spawn_rate = lair.spawn_rate
 
-    if lair.lair_behavior_pointer == LairBehavior.MULTISPAWN or LairBehavior.TWO_UP_TWO_DOWN:
+    if (
+        lair.lair_behavior_pointer == LairBehavior.MULTISPAWN
+        or lair.lair_behavior_pointer == LairBehavior.TWO_UP_TWO_DOWN
+    ):
         spawn_rate = random.randrange(SPAWN_RATE_MIN, SPAWN_RATE_MAX)
         if should_slow_down_spawn_enemy(lair.act_id, lair.entity_id):
             spawn_rate += SPAWN_RATE_SLOW_ADJUST
