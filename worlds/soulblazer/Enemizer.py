@@ -410,6 +410,9 @@ def randomize_lair_spawn_rate(random: Random, lair: LairDataRaw) -> LairDataRaw:
     else:
         return lair
 
+    if lair.lair_behavior_pointer == LairBehavior.ONE_BY_ONE or lair.lair_behavior_pointer == LairBehavior.ONE_BY_ONE_PROX:
+        spawn_rate = 0
+
     return lair._replace(spawn_rate=spawn_rate)
 
 
@@ -419,6 +422,9 @@ def randomize_prespawned_enemies(random: Random):
 
 
 def randomize_lair(world: "SoulBlazerWorld", lair: LairDataRaw, lair_id: int) -> LairDataRaw:
+    if lair.entity_id == EnemyType.NO_ENEMY or lair.entity_id == EnemyType.DREAM_NO_ENEMY:
+        return lair
+
     if world.options.randomize_lair_enemies:
         lair = randomize_lair_enemies(world.random, lair, lair_id)
     if world.options.randomize_lair_type:
