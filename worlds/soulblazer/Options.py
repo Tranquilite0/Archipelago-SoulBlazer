@@ -177,7 +177,7 @@ class GemExpPool(Choice):
     default = 2
 
 
-class RandomizeLairEnemies(Toggle):
+class LairEnemies(Toggle):
     """
     Randomize enemies spawned from lairs.
     """
@@ -185,7 +185,7 @@ class RandomizeLairEnemies(Toggle):
     display_name = "Randomize Lair Enemies"
 
 
-class RandomizeLairType(Toggle):
+class LairType(Toggle):
     """
     Randomize how lairs spawn enemies (multi-spawn, one-by-one, proximity, etc).
     """
@@ -193,7 +193,7 @@ class RandomizeLairType(Toggle):
     display_name = "Randomize Lair Type"
 
 
-class RandomizeLairNumberOfEnemies(Toggle):
+class LairNumberOfEnemiesType(Toggle):
     """
     Randomize number of enemies spawned from lairs.
     """
@@ -201,15 +201,20 @@ class RandomizeLairNumberOfEnemies(Toggle):
     display_name = "Randomize Lair Number of Enemies"
 
 
-class RandomizeLairSpawnRate(Toggle):
+class LairSpawnRate(Choice):
     """
     Randomize how fast enemies are spawned from lairs.
     """
 
     display_name = "Randomize Lair Spawn Rate"
+    option_vanilla = 0
+    option_random = 1
+    option_random_quick = 2
+    option_random_hyper = 3
+    default = 0
 
 
-class RandomizePreSpawnedEnemies(Toggle):
+class PreSpawnedEnemies(Toggle):
     """
     Randomize pre-spawned enemies which are already on the map.
     **Not currently implemented!**
@@ -234,11 +239,11 @@ class SoulBlazerOptions(PerGameCommonOptions):
     equipment_stats: EquipmentStats
     equipment_scaling: EquipmentScaling
     gem_exp_pool: GemExpPool
-    randomize_lair_enemies: RandomizeLairEnemies
-    randomize_lair_type: RandomizeLairType
-    randomize_lair_number_of_enemies: RandomizeLairNumberOfEnemies
-    randomize_lair_spawn_rate: RandomizeLairSpawnRate
-    randomize_pre_spawned_enemies: RandomizePreSpawnedEnemies
+    lair_enemies: LairEnemies
+    lair_type: LairType
+    lair_number_of_enemies: LairNumberOfEnemiesType
+    lair_spawn_rate: LairSpawnRate
+    pre_spawned_enemies: PreSpawnedEnemies
 
 
 soulblazer_option_groups: list[OptionGroup] = [
@@ -267,11 +272,11 @@ soulblazer_option_groups: list[OptionGroup] = [
     OptionGroup(
         "Enemizer",
         [
-            RandomizeLairEnemies,
-            RandomizeLairType,
-            RandomizeLairNumberOfEnemies,
-            RandomizeLairSpawnRate,
-            RandomizePreSpawnedEnemies,
+            LairEnemies,
+            LairType,
+            LairNumberOfEnemiesType,
+            LairSpawnRate,
+            PreSpawnedEnemies,
         ],
     ),
 ]

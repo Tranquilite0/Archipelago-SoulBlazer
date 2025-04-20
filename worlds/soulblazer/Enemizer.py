@@ -1,6 +1,7 @@
 from random import Random
 from .Data.Lair import lair_data, LairDataRaw
 from .Data.Enums import LairAct, LairBehavior, EnemyType
+from .Options import LairSpawnRate
 from typing import TYPE_CHECKING
 
 if TYPE_CHECKING:
@@ -251,6 +252,14 @@ def can_randomize_orientation(act: LairAct, enemy: EnemyType) -> bool:
     )
 
 
+def should_reduce_multispawn_enemy(act: LairAct, enemy: EnemyType) -> bool:
+    return (
+        False
+        # or (act == LairAct.GREENWOOD and enemy == EnemyType.ACT2_STATUE) # TODO: Should this be included?
+        or (act == LairAct.MAGRIDD_CASTLE and enemy == EnemyType.ACT6_MIMIC)
+    )
+
+
 def should_slow_down_spawn_enemy(act: LairAct, enemy: EnemyType) -> bool:
     return (
         (act == LairAct.GRASS_VALLEY and enemy == EnemyType.ACT1_PLANT)
@@ -264,7 +273,7 @@ def should_slow_down_spawn_enemy(act: LairAct, enemy: EnemyType) -> bool:
     )
 
 
-def randomize_lair_enemies(random: Random, lair: LairDataRaw, lair_id: int) -> LairDataRaw:
+def lair_enemies(random: Random, lair: LairDataRaw, lair_id: int) -> LairDataRaw:
     """Randomize the enemies spawned by a lair."""
 
     # Don't randomize enemies from 2-up-2-down lairs, because upside-down enemies can sometimes get away...
@@ -362,7 +371,7 @@ def randomize_lair_enemies(random: Random, lair: LairDataRaw, lair_id: int) -> L
     return lair._replace(entity_id=enemy, orientation=orientation)
 
 
-def randomize_lair_type(random: Random, lair: LairDataRaw) -> LairDataRaw:
+def lair_type(random: Random, lair: LairDataRaw) -> LairDataRaw:
     lair_type = lair.lair_behavior_pointer
 
     if lair_type in randomizable_lair_types_no_two_up:
@@ -375,7 +384,7 @@ def randomize_lair_type(random: Random, lair: LairDataRaw) -> LairDataRaw:
     return lair._replace(lair_behavior_pointer=lair_type)
 
 
-def randomize_lair_number_enemies(random: Random, lair: LairDataRaw) -> LairDataRaw:
+def lair_number_enemies(random: Random, lair: LairDataRaw) -> LairDataRaw:
     num_enemies = lair.enemy_count
 
     if (
@@ -387,26 +396,30 @@ def randomize_lair_number_enemies(random: Random, lair: LairDataRaw) -> LairData
         lair.lair_behavior_pointer == LairBehavior.MULTISPAWN
         or lair.lair_behavior_pointer == LairBehavior.TWO_UP_TWO_DOWN
     ):
-        if lair.entity_id == EnemyType.ACT6_MIMIC:
+        if should_reduce_multispawn_enemy(act=lair.act_id, enemy=lair.entity_id):
             num_enemies = random.randrange(NB_ENEMIES_MULTISPAWN_REDUCED_MIN, NB_ENEMIES_MULTISPAWN_REDUCED_MAX)
         else:
-            num_enemies = random.randrange(NB_ENEMIES_MULTISPAWN_MIN, NB_ENEMIES_MULTISPAWN_REDUCED_MAX)
+            num_enemies = random.randrange(NB_ENEMIES_MULTISPAWN_MIN, NB_ENEMIES_MULTISPAWN_MAX)
     else:
         return lair
 
     return lair._replace(enemy_count=num_enemies)
 
 
-def randomize_lair_spawn_rate(random: Random, lair: LairDataRaw) -> LairDataRaw:
+def lair_spawn_rate(random: Random, lair: LairDataRaw, max_spawn_divisor: int = 0) -> LairDataRaw:
     spawn_rate = lair.spawn_rate
+    use_spawn_rate_max = SPAWN_RATE_MAX if max_spawn_divisor == 0 else int(SPAWN_RATE_MAX / max_spawn_divisor)
+    use_slow_spawn_rate_max = SPAWN_RATE_SLOW_ADJUST if max_spawn_divisor == 0 else int(
+        SPAWN_RATE_SLOW_ADJUST / max_spawn_divisor
+    )
 
     if (
         lair.lair_behavior_pointer == LairBehavior.MULTISPAWN
         or lair.lair_behavior_pointer == LairBehavior.TWO_UP_TWO_DOWN
     ):
-        spawn_rate = random.randrange(SPAWN_RATE_MIN, SPAWN_RATE_MAX)
+        spawn_rate = random.randrange(SPAWN_RATE_MIN, use_spawn_rate_max)
         if should_slow_down_spawn_enemy(lair.act_id, lair.entity_id):
-            spawn_rate += SPAWN_RATE_SLOW_ADJUST
+            spawn_rate += use_slow_spawn_rate_max
     else:
         return lair
 
@@ -416,7 +429,7 @@ def randomize_lair_spawn_rate(random: Random, lair: LairDataRaw) -> LairDataRaw:
     return lair._replace(spawn_rate=spawn_rate)
 
 
-def randomize_prespawned_enemies(random: Random):
+def pre_spawned_enemies(random: Random):
     # TODO: port this functionality.
     pass
 
@@ -425,14 +438,18 @@ def randomize_lair(world: "SoulBlazerWorld", lair: LairDataRaw, lair_id: int) ->
     if lair.entity_id == EnemyType.NO_ENEMY or lair.entity_id == EnemyType.DREAM_NO_ENEMY:
         return lair
 
-    if world.options.randomize_lair_enemies:
-        lair = randomize_lair_enemies(world.random, lair, lair_id)
-    if world.options.randomize_lair_type:
-        lair = randomize_lair_type(world.random, lair)
-    if world.options.randomize_lair_number_of_enemies:
-        lair = randomize_lair_number_enemies(world.random, lair)
-    if world.options.randomize_lair_spawn_rate:
-        lair = randomize_lair_spawn_rate(world.random, lair)
+    if world.options.lair_enemies:
+        lair = lair_enemies(world.random, lair, lair_id)
+    if world.options.lair_type:
+        lair = lair_type(world.random, lair)
+    if world.options.lair_number_of_enemies:
+        lair = lair_number_enemies(world.random, lair)
+    if world.options.lair_spawn_rate != LairSpawnRate.option_vanilla:
+        lair = lair_spawn_rate(
+            world.random,
+            lair,
+            world.options.lair_spawn_rate.value,
+        )
     return lair
 
 
