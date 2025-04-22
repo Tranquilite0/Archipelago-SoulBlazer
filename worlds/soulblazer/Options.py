@@ -9,10 +9,10 @@ class TextSpeed(Choice):
     Fast: Text renders a character at a time at the same speed as the JP version.
     """
 
-    display_name = "Text Speed"
-    option_fast = 1
-    option_instant = 0
-    default = 0
+    display_name: str = "Text Speed"
+    option_fast: int = 1
+    option_instant: int = 0
+    default: int = 0
 
 
 class Goal(Choice):
@@ -22,10 +22,10 @@ class Goal(Choice):
     Emblem Hunt: Collect all 8 master's emblems and turn them in at the Gem Fairy in Greenwood.
     """
 
-    display_name = "Goal"
-    option_deathtoll = 0
-    option_emblem_hunt = 1
-    default = 0
+    display_name: str = "Goal"
+    option_deathtoll: int = 0
+    option_emblem_hunt: int = 1
+    default: int = 0
 
 
 class ActProgression(Choice):
@@ -35,10 +35,10 @@ class ActProgression(Choice):
     Open: All worlds are open from the start of the game.
     """
 
-    display_name = "Act Progression"
-    option_vanilla = 0
-    option_open = 1
-    default = 0
+    display_name: str = "Act Progression"
+    option_vanilla: int = 0
+    option_open: int = 1
+    default: int = 0
 
 
 class StonesPlacement(Choice):
@@ -49,11 +49,11 @@ class StonesPlacement(Choice):
     Totally Random: Stones are randomized with everything else.
     """
 
-    display_name = "Stones Placement"
-    option_vanilla = 0
-    option_bosses = 1
-    option_totally_random = 2
-    default = 0
+    display_name: str = "Stones Placement"
+    option_vanilla: int = 0
+    option_bosses: int = 1
+    option_totally_random: int = 2
+    default: int = 0
 
 
 class StonesCount(Range):
@@ -61,10 +61,10 @@ class StonesCount(Range):
     Number of Stones needed to open the World of Evil.
     """
 
-    display_name = "Stones Count"
-    range_start = 0
-    range_end = 6
-    default = 6
+    display_name: str = "Stones Count"
+    range_start: int = 0
+    range_end: int = 6
+    default: int = 6
 
 
 class OpenDeathToll(Toggle):
@@ -72,7 +72,7 @@ class OpenDeathToll(Toggle):
     Determines if Deathtoll's Palace in the World of Evil is already open.
     """
 
-    display_name = "Open Deathtoll"
+    display_name: str = "Open Deathtoll"
 
 
 class StartingSword(Choice):
@@ -83,19 +83,19 @@ class StartingSword(Choice):
     Randomized: You will get a random sword.
     """
 
-    display_name = "Starting Sword"
+    display_name: str = "Starting Sword"
 
-    option_vanilla = 0
-    option_psycho_sword = 1
-    option_critical_sword = 2
-    option_lucky_blade = 3
-    option_zantetsu_sword = 4
-    option_spirit_sword = 5
-    option_recovery_sword = 6
-    option_soul_blade = 7
-    option_randomized = 8
+    option_vanilla: int = 0
+    option_psycho_sword: int = 1
+    option_critical_sword: int = 2
+    option_lucky_blade: int = 3
+    option_zantetsu_sword: int = 4
+    option_spirit_sword: int = 5
+    option_recovery_sword: int = 6
+    option_soul_blade: int = 7
+    option_randomized: int = 8
 
-    default = 0
+    default: int = 0
 
 
 class EquipmentStats(Choice):
@@ -106,11 +106,11 @@ class EquipmentStats(Choice):
     Shuffle: Shuffles the stats of all swords and armor.
     """
 
-    display_name = "Equipment Stats"
-    option_vanilla = 0
-    option_semi_progressive = 1
-    option_shuffle = 2
-    default = 1
+    display_name: str = "Equipment Stats"
+    option_vanilla: int = 0
+    option_semi_progressive: int = 1
+    option_shuffle: int = 2
+    default: int = 1
 
 
 class EquipmentScaling(Choice):
@@ -123,13 +123,13 @@ class EquipmentScaling(Choice):
     Broken: Swords/Armor strength is set to 1/1/1/1/1/1/1/1 strength/defense progression.
     """
 
-    display_name = "Equipment Scaling"
-    option_vanilla = 0
-    option_improved = 1
-    option_strong = 2
-    option_weak = 3
-    option_broken = 4
-    default = 0
+    display_name: str = "Equipment Scaling"
+    option_vanilla: int = 0
+    option_improved: int = 1
+    option_strong: int = 2
+    option_weak: int = 3
+    option_broken: int = 4
+    default: int = 0
 
 
 class MagicianItem(Choice):
@@ -140,11 +140,11 @@ class MagicianItem(Choice):
     Totally Random: Any reward in the item pool.
     """
 
-    display_name = "Magician's Item"
-    option_vanilla = 0
-    option_random_spell = 1
-    option_totally_random = 2
-    default = 1
+    display_name: str = "Magician's Item"
+    option_vanilla: int = 0
+    option_random_spell: int = 1
+    option_totally_random: int = 2
+    default: int = 1
 
 
 class MagicianSoul(Choice):
@@ -155,11 +155,11 @@ class MagicianSoul(Choice):
     Totally Random: Any reward in the item pool.
     """
 
-    display_name = "Magician's Soul"
-    option_vanilla = 0
-    option_random_soul = 1
-    option_totally_random = 2
-    default = 0
+    display_name: str = "Magician's Soul"
+    option_vanilla: int = 0
+    option_random_soul: int = 1
+    option_totally_random: int = 2
+    default: int = 0
 
 
 class GemExpPool(Choice):
@@ -170,11 +170,11 @@ class GemExpPool(Choice):
     Random Range: Gem rewards in the pool are randomized in the range of 1-999, and Exp rewards in the range of 1-9999.
     """
 
-    display_name = "Gem/Exp Pool"
-    option_vanilla = 0
-    option_improved = 1
-    option_random_range = 2
-    default = 2
+    display_name: str = "Gem/Exp Pool"
+    option_vanilla: int = 0
+    option_improved: int = 1
+    option_random_range: int = 2
+    default: int = 2
 
 
 class LairEnemies(Toggle):
@@ -182,7 +182,7 @@ class LairEnemies(Toggle):
     Randomize enemies spawned from lairs.
     """
 
-    display_name = "Randomize Lair Enemies"
+    display_name: str = "Randomize Lair Enemies"
 
 
 class LairType(Toggle):
@@ -190,7 +190,7 @@ class LairType(Toggle):
     Randomize how lairs spawn enemies (multi-spawn, one-by-one, proximity, etc).
     """
 
-    display_name = "Randomize Lair Type"
+    display_name: str = "Randomize Lair Type"
 
 
 class LairNumberOfEnemiesType(Toggle):
@@ -198,7 +198,7 @@ class LairNumberOfEnemiesType(Toggle):
     Randomize number of enemies spawned from lairs.
     """
 
-    display_name = "Randomize Lair Number of Enemies"
+    display_name: str = "Randomize Lair Number of Enemies"
 
 
 class LairSpawnRate(Choice):
@@ -206,12 +206,12 @@ class LairSpawnRate(Choice):
     Randomize how fast enemies are spawned from lairs.
     """
 
-    display_name = "Randomize Lair Spawn Rate"
-    option_vanilla = 0
-    option_random = 1
-    option_random_quick = 2
-    option_random_hyper = 3
-    default = 0
+    display_name: str = "Randomize Lair Spawn Rate"
+    option_vanilla: int = 0
+    option_random: int = 1
+    option_random_quick: int = 2
+    option_random_hyper: int = 3
+    default: int = 0
 
 
 class PreSpawnedEnemies(Toggle):
@@ -220,7 +220,7 @@ class PreSpawnedEnemies(Toggle):
     **Not currently implemented!**
     """
 
-    display_name = "Randomize Pre-Spawned Enemies"
+    display_name: str = "Randomize Pre-Spawned Enemies"
 
 
 # By convention, we call the options dataclass `<world>Options`.
