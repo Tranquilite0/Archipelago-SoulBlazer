@@ -687,6 +687,12 @@ def create_regions(world: "SoulBlazerWorld") -> None:
             connect_to = regions[exit_data.destination]
             region.connect(connect_to, None, get_rule_for_exit(exit_data, world.player))
 
+    # Register the indirect connection to the mountain king/phoenix cutscene if it is required to get to deathtoll.
+    if not world.options.open_deathtoll:
+        deathtoll_region = world.get_region(RegionName.DEATHTOLL)
+        mountain_king_region = world.get_region(RegionName.MOUNTAIN_KING)
+        world.multiworld.register_indirect_condition(mountain_king_region, deathtoll_region.entrances[0])
+
     # All of the locations should have been placed in regions.
     # TODO: Delete once confident that all locations are in or move into a test instead?
     if len(all_locations) < len(locations_by_name):
