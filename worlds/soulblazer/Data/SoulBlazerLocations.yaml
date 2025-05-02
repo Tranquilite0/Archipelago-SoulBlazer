@@ -239,14 +239,14 @@ chests:
   description: Act 5 - Model Town Left - North Hilltop Right Chest
   type: Chest
   flag: NONE
-- name: Model Town Right - Center Suberbs Top Chest
+- name: Model Town Right - Center Suburbs Top Chest
   id: 48
-  description: Act 5 - Model Town Right - Center Suberbs Top Chest
+  description: Act 5 - Model Town Right - Center Suburbs Top Chest
   type: Chest
   flag: NONE
-- name: Model Town Right - Center Suberbs Bottom Chest
+- name: Model Town Right - Center Suburbs Bottom Chest
   id: 49
-  description: Act 5 - Model Town Right - Center Suberbs Bottom Chest
+  description: Act 5 - Model Town Right - Center Suburbs Bottom Chest
   type: Chest
   flag: NONE
 - name: Magridd Castle B1 - West Chest
@@ -625,7 +625,7 @@ lairs:
   description: Act 3 - Seabed North-East - Lair 134 - Lair Out in the Open
   type: Lair
   flag: NONE
-- name: Durean - Western Penninsula Lair
+- name: Durean - Western Peninsula Lair
   id: 138
   description: Act 3 - Durean - Lair 138 - Western Penninsula Lair
   type: Lair
@@ -955,7 +955,7 @@ lairs:
   description: Act 5 - Leo's Lab B2 - Lair 294 - Hot Pipe Second From the Left Lair
   type: Lair
   flag: NONE
-- name: Leo's Lab B2 - LAir Inside the Pipe Tube
+- name: Leo's Lab B2 - Lair Inside the Pipe Tube
   id: 297
   description: Act 5 - Leo's Lab B2 - Lair 297 - Lair Inside the Pipe Tube
   type: Lair
@@ -1246,7 +1246,7 @@ npc-rewards:
   description: Act 2 - Greenwood - Woodstin Trio's Prize (Always right)
   type: NPC Reward
   flag: NONE
-- name: Greedwood - Greenwood's Guardian's Item
+- name: Greenwood - Greenwood's Guardian's Item
   id: 14
   description: Act 2 - Greenwood - Greenwood's Guardian's Item
   type: NPC Reward
