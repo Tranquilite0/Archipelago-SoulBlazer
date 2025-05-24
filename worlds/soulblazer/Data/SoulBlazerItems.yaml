@@ -874,7 +874,7 @@ npc_releases:
   operand: 247
   classification: 0
   description: Mountain of Souls - Releases the snail accompanying the boy with gift in the center lake room (he wants walkies). Has no use.
-- name: Grandpa for South-West Tunnel.
+- name: Grandpa for South-West Tunnel
   id: 253
   operand: 248
   classification: 1
