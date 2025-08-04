@@ -1,7 +1,7 @@
 import logging
 import asyncio
 import types
-from typing import NamedTuple, TYPE_CHECKING
+from typing import Any, NamedTuple, TYPE_CHECKING
 
 from .Names import Addresses, MapID
 from .Data.ItemData import items_data
@@ -15,7 +15,6 @@ from worlds.AutoSNIClient import SNIClient
 from Utils import async_start
 
 if TYPE_CHECKING:
-    # from .Context import ItemSend, SoulBlazerContext
     from SNIClient import SNIContext
 
 
@@ -55,39 +54,47 @@ class SoulBlazerSNIClient(SNIClient):
         self.lairs_rom_name: bytes = bytes(0)
         self.lair_state: list[int] = []
         self.event_flags: list[int] = []
+        self.gem_data: dict[str, int] = {}
+        self.exp_data: dict[str, int] = {}
+        self.slot_data_rom_name: bytes = bytes(0)
+        self.item_send_queue: list[ItemSend] = []
 
     def update_lairs_sealed(self, ctx: "SNIContext", lair_state_table: bytes):
         """Checks if lair state has changed and updates the data storage if it has."""
         new_lair_state = [*lair_state_table]
         if new_lair_state != self.lair_state:
-            async_start(ctx.send_msgs(
-                [
-                    {
-                        "cmd": "Set",
-                        "key": f"soulblazer_lair_state_{ctx.team}_{ctx.slot}",
-                        "default": [],
-                        "want_reply": False,
-                        "operations": [{"operation": "replace", "value": new_lair_state}],
-                    }
-                ]
-            ))
+            async_start(
+                ctx.send_msgs(
+                    [
+                        {
+                            "cmd": "Set",
+                            "key": f"soulblazer_lair_state_{ctx.team}_{ctx.slot}",
+                            "default": [],
+                            "want_reply": False,
+                            "operations": [{"operation": "replace", "value": new_lair_state}],
+                        }
+                    ]
+                )
+            )
         self.lair_state = new_lair_state
 
     def update_event_flags(self, ctx: "SNIContext", event_flags_table: bytes):
         """Check if any new event flags have been set and updates the data storage if it has changed."""
         new_event_flags: list[int] = [*event_flags_table]
         if new_event_flags != self.event_flags:
-            async_start(ctx.send_msgs(
-                [
-                    {
-                        "cmd": "Set",
-                        "key": f"soulblazer_event_flags_{ctx.team}_{ctx.slot}",
-                        "default": [],
-                        "want_reply": False,
-                        "operations": [{"operation": "replace", "value": new_event_flags}],
-                    }
-                ]
-            ))
+            async_start(
+                ctx.send_msgs(
+                    [
+                        {
+                            "cmd": "Set",
+                            "key": f"soulblazer_event_flags_{ctx.team}_{ctx.slot}",
+                            "default": [],
+                            "want_reply": False,
+                            "operations": [{"operation": "replace", "value": new_event_flags}],
+                        }
+                    ]
+                )
+            )
         self.event_flags = new_event_flags
 
     async def was_obtained_locally(self, ctx: "SNIContext", item: NetworkItem) -> bool:
@@ -152,7 +159,7 @@ class SoulBlazerSNIClient(SNIClient):
         pass
         # TODO: Handle Receiving Deathlink
 
-    async def validate_rom(self, ctx):
+    async def validate_rom(self, ctx) -> bool:
         from SNIClient import snes_buffered_write, snes_flush_writes, snes_read, SNIContext
 
         rom_name = await snes_read(ctx, Addresses.SNES_ROMNAME_START, Addresses.ROMNAME_SIZE)
@@ -166,37 +173,6 @@ class SoulBlazerSNIClient(SNIClient):
 
         ctx.want_slot_data = True
 
-        # This is pretty hacky, but I cant figure out a way to get this data otherwise.
-        # TODO: remove this now that 0.6.0 makes it irrelevant
-        def new_on_package(self: SNIContext, cmd: str, args: dict):
-            """Custom package handling for Soul Blazer."""
-            # Run the original on_package
-            SNIContext.on_package(self, cmd, args)
-
-            if cmd in {"Connected", "RoomUpdate"}:
-                slot_data = args.get("slot_data", None)
-                if slot_data:
-                    self.gem_data = slot_data.get("gem_data", {})
-                    self.exp_data = slot_data.get("exp_data", {})
-            elif cmd == "Retrieved":
-                slot_data = args["keys"].get(f"_read_slot_data_{self.slot}", None)
-                if slot_data:
-                    self.gem_data = slot_data.get("gem_data", {})
-                    self.exp_data = slot_data.get("exp_data", {})
-            elif cmd == "PrintJSON":
-                # We want ItemSends from us to another player so we can print them in game
-                if (
-                    args.get("type", "") == "ItemSend"
-                    and args["receiving"] != self.slot
-                    and args["item"].player == self.slot
-                ):
-                    if not hasattr(self, "item_send_queue"):
-                        self.item_send_queue = []
-                    self.item_send_queue.append(ItemSend(args["receiving"], args["item"]))
-
-        # Replace the on_package function on our context's instance only.
-        ctx.on_package = types.MethodType(new_on_package, ctx)
-
         # death_link = await snes_read(ctx, DEATH_LINK_ACTIVE_ADDR, 1)
         ## TODO: Handle Deathlink
         # if death_link:
@@ -204,6 +180,33 @@ class SoulBlazerSNIClient(SNIClient):
         #    await ctx.update_death_link(bool(death_link[0] & 0b1))
 
         return True
+
+    def unvalidate_rom(self, ctx: "SNIContext") -> None:
+        ctx.rom = None
+        self.item_send_queue = []
+        pass
+
+    def on_package(self, ctx: "SNIContext", cmd: str, args: dict[str, Any]) -> None:
+        """Custom package handling for Soul Blazer."""
+
+        if cmd in {"Connected", "RoomUpdate"}:
+            slot_data: dict[str, Any] | None = args.get("slot_data", None)
+            if slot_data:
+                self.gem_data = slot_data.get("gem_data", {})
+                self.exp_data = slot_data.get("exp_data", {})
+                self.slot_data_rom_name = ctx.rom
+                snes_logger.debug(f"({cmd}) Successfully obtained slot data.")
+        elif cmd == "Retrieved":
+            slot_data: dict[str, Any] | None = args["keys"].get(f"_read_slot_data_{ctx.slot}", None)
+            if slot_data:
+                self.gem_data = slot_data.get("gem_data", {})
+                self.exp_data = slot_data.get("exp_data", {})
+                self.slot_data_rom_name = ctx.rom
+                snes_logger.debug(f"({cmd}) Successfully obtained slot data.")
+        elif cmd == "PrintJSON":
+            # We want ItemSends from us to another player so we can print them in game
+            if args.get("type", "") == "ItemSend" and args["receiving"] != ctx.slot and args["item"].player == ctx.slot:
+                self.item_send_queue.append(ItemSend(args["receiving"], args["item"]))
 
     async def game_watcher(self, ctx: "SNIContext"):
         from SNIClient import snes_buffered_write, snes_flush_writes, snes_read
@@ -213,7 +216,7 @@ class SoulBlazerSNIClient(SNIClient):
         rom = await snes_read(ctx, Addresses.SNES_ROMNAME_START, Addresses.ROMNAME_SIZE)
         if rom != ctx.rom:
             # Rom is no longer loaded.
-            ctx.rom = None
+            self.unvalidate_rom(ctx)
             return
 
         if ctx.server is None or ctx.slot is None:
@@ -306,31 +309,26 @@ class SoulBlazerSNIClient(SNIClient):
             or verify_save_file_name != save_file_name
         ):
             # We have somehow exited the save file (or worse)
-            ctx.rom = None
+            self.unvalidate_rom(ctx)
             return
 
         rom = await snes_read(ctx, Addresses.SNES_ROMNAME_START, Addresses.ROMNAME_SIZE)
         if rom != ctx.rom:
-            ctx.rom = None
+            self.unvalidate_rom(ctx)
             # We have somehow loaded a different ROM
             return
 
         for new_check_id in new_checks:
             ctx.locations_checked.add(new_check_id)
-            location = ctx.location_names[new_check_id]
-            snes_logger.info(
+            location = ctx.location_names.lookup_in_game(new_check_id)
+            snes_logger.debug(
                 f"New Check: {location} ({len(ctx.locations_checked)}/{len(ctx.missing_locations) + len(ctx.checked_locations)})"
             )
-
-        async_start(ctx.send_msgs([{"cmd": "LocationChecks", "locations": new_checks}]))
+            await ctx.send_msgs([{"cmd": "LocationChecks", "locations": [new_check_id]}])
 
         if has_victory and not ctx.finished_game:
             await ctx.send_msgs([{"cmd": "StatusUpdate", "status": ClientStatus.CLIENT_GOAL}])
             ctx.finished_game = True
-
-        # Check if there are any queued item sends that we are ready to display.
-        if not hasattr(ctx, "item_send_queue"):
-            ctx.item_send_queue = []
 
         self.update_lairs_sealed(ctx, ram_lair_spawn)
 
@@ -338,12 +336,12 @@ class SoulBlazerSNIClient(SNIClient):
         event_flags_end = event_flags_start + Addresses.EVENT_FLAGS_SIZE
         self.update_event_flags(ctx, ram_misc[event_flags_start:event_flags_end])
 
-        if bool(ctx.item_send_queue):
+        if bool(self.item_send_queue):
             tx_status = await snes_read(ctx, Addresses.TX_STATUS, 1)
             if tx_status is not None and tx_status[0] == STATUS_DELAY_FRAMES:
-                send = ctx.item_send_queue.pop(0)
+                send = self.item_send_queue.pop(0)
                 player_name = encode_string(ctx.player_names[send.receiving], Addresses.TX_ADDRESSEE_SIZE)
-                item_name = encode_string(ctx.item_names[send.item.item], Addresses.TX_NAME_SIZE)
+                item_name = encode_string(ctx.item_names.lookup_in_slot(send.item.item, send.receiving), Addresses.TX_NAME_SIZE)
                 snes_buffered_write(ctx, Addresses.TX_ADDRESSEE, player_name)
                 snes_buffered_write(ctx, Addresses.TX_ITEM_NAME, item_name)
                 await snes_flush_writes(ctx)
@@ -352,9 +350,9 @@ class SoulBlazerSNIClient(SNIClient):
                 await snes_flush_writes(ctx)
 
         # Receive items if possible
-        if not hasattr(ctx, "gem_data") or not hasattr(ctx, "exp_data"):
-            # We dont have slot data yet, try requesting it and return.
-            async_start(ctx.send_msgs([{"cmd": "Get", "locations": [f"_read_slot_data_{ctx.slot}"]}]))
+        if not self.gem_data or not self.exp_data or self.slot_data_rom_name != rom:
+            # We dont have slot data yet or our slot data is out of sync somehow, try requesting it and return.
+            await ctx.send_msgs([{"cmd": "Get", "keys": [f"_read_slot_data_{ctx.slot}"]}])
             return
 
         # Only ever prepare to send things when the game is ready to receive first since otherwise the index might be out of sync.
@@ -388,9 +386,9 @@ class SoulBlazerSNIClient(SNIClient):
             item_data = self.item_data_for_code[item.item]
             operand = item_data.operand_for_id
             if item_data.id == ItemID.GEMS:
-                operand = ctx.gem_data.get(f"{item.item}:{item.location}:{item.player}", operand)
+                operand = self.gem_data.get(f"{item.item}:{item.location}:{item.player}", operand)
             if item_data.id == ItemID.EXP:
-                operand = ctx.exp_data.get(f"{item.item}:{item.location}:{item.player}", operand)
+                operand = self.exp_data.get(f"{item.item}:{item.location}:{item.player}", operand)
 
             snes_buffered_write(ctx, Addresses.RX_INCREMENT, bytes([0x01]))
             snes_buffered_write(ctx, Addresses.RX_ID, item_data.id.to_bytes(1, "little"))
