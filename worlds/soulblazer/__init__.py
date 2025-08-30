@@ -233,11 +233,11 @@ class SoulBlazerWorld(World):
     def fill_slot_data(self) -> dict[str, Any]:
         slot_data = dict()
         slot_data["gem_data"] = {
-            f"{item.code}:{item.location.address}:{item.location.player}": item.operand_for_id
+            f"{item.code}:{getattr(item.location, 'address', None)}:{getattr(item.location, 'player', None)}": item.operand_for_id
             for item in self.gem_items
         }
         slot_data["exp_data"] = {
-            f"{item.code}:{item.location.address}:{item.location.player}": item.operand_for_id
+            f"{item.code}:{getattr(item.location, 'address', None)}:{getattr(item.location, 'player', None)}": item.operand_for_id
             for item in self.exp_items
         }
         for option_name in (
