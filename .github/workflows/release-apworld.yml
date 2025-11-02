@@ -9,31 +9,52 @@ on:
 
 env:
   # Name of AP World
-  AP_WORLD_NAME: SoulBlazer
+  AP_WORLD_NAME: Soul Blazer
   # Name of world's directory (in the worlds directory).
   AP_WORLD_DIR: soulblazer
+  # Will be redefined in subsequent steps, but it makes the syntax highlighter happy.
+  RELEASE_VERSION: v0.0.0
+  VERSION_NUM: v0.0.0
+  AP_WORLD_PATH: ""
 
 jobs:
   create-release:
     runs-on: ubuntu-latest
     steps:
       - name: Set env
-        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV  # tag vX.Y.Z will become "env.AP_WORLD_NAME APWorld vX.Y.Z"
+        run: |
+          echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+          echo "VERSION_NUM=${GITHUB_REF#refs/v*/}" >> $GITHUB_ENV
       - name: Checkout APWorld Repo
         uses: actions/checkout@v4
         with:
           sparse-checkout: worlds/${{ env.AP_WORLD_DIR }}
-      - name: Create AP World Archive
-        run: |
-          mkdir dist
-          cd worlds
-          zip -r ../dist/${{ env.AP_WORLD_DIR }}.apworld ${{ env.AP_WORLD_DIR }}
-      - name: Create Release
-        uses: softprops/action-gh-release@975c1b265e11dd76618af1c374e7981f9a6ff44a
+      - name: Install python
+        uses: actions/setup-python@v5
         with:
-          draft: true  # don't publish right away # TODO: Set to false once confirming this works.
-          prerelease: false #TODO: add pre-release detection?
+          python-version: '~3.12.7'
+          check-latest: true
+      - name: Update World Version in Manifest
+        run:  |
+          cd worlds/${{ env.AP_WORLD_DIR }}
+          json="$(jq '.world_version = "${{ env.VERSION_NUM }}"' archipelago.json)"
+          echo "${json}" > archipelago.json
+      - name: Create AP World Archive # Press the button, Max!
+        run: |
+          python ./Launcher.py "Build APWorlds" -- "${{ env.AP_WORLD_NAME }}"
+          echo "AP_WORLD_PATH=build/apworlds/${{ env.AP_WORLD_DIR }}.apworld" >> $GITHUB_ENV
+      # - name: Create AP World Archive
+      #   run: |
+      #     mkdir dist
+      #     cd worlds
+      #     zip -r ../dist/${{ env.AP_WORLD_DIR }}.apworld ${{ env.AP_WORLD_DIR }}
+      #     echo "AP_WORLD_PATH=dist/${{ env.AP_WORLD_DIR }}.apworld" >> $GITHUB_ENV
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          draft: true  # don't publish right away
+          prerelease: false
           name: ${{ env.AP_WORLD_NAME }} APWorld ${{ env.RELEASE_VERSION }}
-          files: dist/${{ env.AP_WORLD_DIR }}.apworld
+          files: ${{ env.AP_WORLD_PATH }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
