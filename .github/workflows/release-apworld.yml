@@ -12,7 +12,8 @@ env:
   AP_WORLD_NAME: Soul Blazer
   # Name of world's directory (in the worlds directory).
   AP_WORLD_DIR: soulblazer
-  # Will be redefined in subsequent steps, but it makes the syntax highlighter happy.
+  # The following Will be redefined in subsequent steps, 
+  #  but defining them here makes the syntax highlighter stop complaining.
   RELEASE_VERSION: v0.0.0
   VERSION_NUM: "0.0.0"
   AP_WORLD_PATH: ""
@@ -47,12 +48,6 @@ jobs:
         run: |
           python Launcher.py "Build APWorlds" -- "${{ env.AP_WORLD_NAME }}"
           echo "AP_WORLD_PATH=build/apworlds/${{ env.AP_WORLD_DIR }}.apworld" >> $GITHUB_ENV
-      # - name: Create AP World Archive
-      #   run: |
-      #     mkdir dist
-      #     cd worlds
-      #     zip -r ../dist/${{ env.AP_WORLD_DIR }}.apworld ${{ env.AP_WORLD_DIR }}
-      #     echo "AP_WORLD_PATH=dist/${{ env.AP_WORLD_DIR }}.apworld" >> $GITHUB_ENV
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
