@@ -14,7 +14,7 @@ env:
   AP_WORLD_DIR: soulblazer
   # Will be redefined in subsequent steps, but it makes the syntax highlighter happy.
   RELEASE_VERSION: v0.0.0
-  VERSION_NUM: v0.0.0
+  VERSION_NUM: "0.0.0"
   AP_WORLD_PATH: ""
 
 jobs:
