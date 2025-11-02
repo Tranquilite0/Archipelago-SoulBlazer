@@ -34,6 +34,7 @@ jobs:
         with:
           python-version: '~3.12.7'
           check-latest: true
+      - run: python -m pip install --upgrade setuptools>=75,<81
       - name: Update World Version in Manifest
         run:  |
           cd worlds/${{ env.AP_WORLD_DIR }}
@@ -41,7 +42,7 @@ jobs:
           echo "${json}" > archipelago.json
       - name: Create AP World Archive # Press the button, Max!
         run: |
-          python ./Launcher.py "Build APWorlds" -- "${{ env.AP_WORLD_NAME }}"
+          python Launcher.py "Build APWorlds" -- "${{ env.AP_WORLD_NAME }}"
           echo "AP_WORLD_PATH=build/apworlds/${{ env.AP_WORLD_DIR }}.apworld" >> $GITHUB_ENV
       # - name: Create AP World Archive
       #   run: |
