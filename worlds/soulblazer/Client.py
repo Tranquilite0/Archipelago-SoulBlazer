@@ -24,6 +24,34 @@ STATUS_DELAY_FRAMES = 0x03
 #SNI versions <= 0.0.101 will fail to read more than this many bytes when using RetroArch.
 MAX_CHUNK_SIZE = 2048
 
+async def snes_read_chunked(ctx: 'SNIContext', address: int, size: int) -> bytes | None:
+    """Wrapper over snes_read that reads in chunks of at most MAX_CHUNK_SIZE bytes."""
+
+    from SNIClient import snes_read
+
+    data : bytes = bytes()
+    current_address = address
+    remaining = size
+    
+    while remaining > MAX_CHUNK_SIZE:
+        chunk = await snes_read(ctx, current_address, MAX_CHUNK_SIZE)
+        if chunk is None:
+            return None
+        data += chunk
+        current_address += MAX_CHUNK_SIZE
+        remaining -= MAX_CHUNK_SIZE
+
+    if remaining > 0:
+        chunk = await snes_read(ctx, current_address, remaining)
+        if chunk is None:
+            return None
+        data += chunk
+
+    if len(data) != size:
+        snes_logger.error(f"tried to read {size} bytes but got {len(data)}.")
+
+    return data
+
 class ItemSend(NamedTuple):
     receiving: int
     item: NetworkItem
@@ -122,31 +150,6 @@ class SoulBlazerSNIClient(SNIClient):
         if location_data.type == LocationType.LAIR:
             lair_byte = await snes_read(ctx, Addresses.LAIR_SPAWN_TABLE + location_data.id, 1)
             return lair_byte[0] & 0x80
-
-    async def snes_read_chunked(ctx: SNIContext, address: int, size: int) -> bytes | None:
-        """Wrapper over snes_read that reads in chunks of at most MAX_CHUNK_SIZE bytes."""
-
-        from SNIClient import snes_read
-
-        data : bytes = bytes()
-        current_address = address
-        remaining = size
-        
-        while remaining > MAX_CHUNK_SIZE:
-            chunk = await snes_read(ctx, current_address, MAX_CHUNK_SIZE)
-            if chunk is None:
-                return None
-            data += chunk
-            current_address += MAX_CHUNK_SIZE
-            remaining -= MAX_CHUNK_SIZE
-
-        if remaining > 0:
-            chunk = await snes_read(ctx, current_address, remaining)
-            if chunk is None:
-                return None
-            data += chunk
-
-        return data
 
     def is_in_excluded_zone(self, location: LocationData, lair_state_table: bytes) -> bool:
         """True if player is in a location that should not allow items to be received."""
@@ -251,7 +254,7 @@ class SoulBlazerSNIClient(SNIClient):
 
         # Only read lair data once per rom.
         if self.lairs_rom_name != rom:
-            lair_bytes = await snes_read(ctx, Addresses.LAIR_DATA, Addresses.LAIR_DATA_SIZE * Addresses.LAIRS_COUNT)
+            lair_bytes = await snes_read_chunked(ctx, Addresses.LAIR_DATA, Addresses.LAIR_DATA_SIZE * Addresses.LAIRS_COUNT)
             if lair_bytes is None:
                 return False
             self.lair_data = unpack_lair_data(lair_bytes)
@@ -278,7 +281,7 @@ class SoulBlazerSNIClient(SNIClient):
         location_data = await snes_read(ctx, location_data_start, location_data_end - location_data_start + 1)
 
         # 4k bytes. Hopefully not too much to read.
-        entity_bytes = await snes_read(ctx, Addresses.ENTITIES_TABLE, Addresses.ENTITY_SIZE * Addresses.ENTITY_COUNT)
+        entity_bytes = await snes_read_chunked(ctx, Addresses.ENTITIES_TABLE, Addresses.ENTITY_SIZE * Addresses.ENTITY_COUNT)
 
         if (
             ram_misc is None
