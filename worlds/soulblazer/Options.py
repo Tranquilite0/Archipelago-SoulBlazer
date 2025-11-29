@@ -15,6 +15,19 @@ class TextSpeed(Choice):
     default = 0
 
 
+class ReleaseCutscenes(Choice):
+    """
+    NPC Release Cutscenes.
+    Show: Shows NPC release cutscenes.
+    Skip: Skips NPC release cutscenes.
+    """
+
+    display_name = "Release Cutscenes"
+    option_show = 0
+    option_skip = 1
+    default = 0
+
+
 class Goal(Choice):
     """
     How you beat the game.
@@ -231,6 +244,7 @@ class SoulBlazerOptions(PerGameCommonOptions):
     magician_item: MagicianItem
     magician_soul: MagicianSoul
     text_speed: TextSpeed
+    release_cutscenes: ReleaseCutscenes
     equipment_stats: EquipmentStats
     equipment_scaling: EquipmentScaling
     gem_exp_pool: GemExpPool
@@ -259,6 +273,7 @@ soulblazer_option_groups: list[OptionGroup] = [
         "QOL Options",
         [
             TextSpeed,
+            ReleaseCutscenes,
             EquipmentStats,
             EquipmentScaling,
             GemExpPool,
