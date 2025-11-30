@@ -259,6 +259,9 @@ def write_patch(world: "SoulBlazerWorld", patch: SoulBlazerProcedurePatch) -> No
     patch.write_token(
         APTokenTypes.WRITE, Addresses.OPEN_DEATHTOLL, world.options.open_deathtoll.value.to_bytes(1, "little")
     )
+    patch.write_token(
+        APTokenTypes.WRITE, Addresses.RELEASE_CUTSCENES, world.options.release_cutscenes.value.to_bytes(1, "little")
+    )
 
     patch.write_token(APTokenTypes.WRITE, Addresses.SNES_ROMNAME_START, world.rom_name)
 
