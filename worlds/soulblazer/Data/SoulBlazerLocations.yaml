@@ -930,7 +930,7 @@ lairs:
   description: Act 5 - Leo's Lab B1 - Lair 282 - South-East Pipe Gauntlet Top Lair
   type: Lair
   flag: CAN_CUT_METAL
-- name: Leo's Lab B1 South-East Pipe Gauntlet Bottom Lair
+- name: Leo's Lab B1 - South-East Pipe Gauntlet Bottom Lair
   id: 283
   description: Act 5 - Leo's Lab B1 - Lair 283 - South-East Pipe Gauntlet Bottom Lair
   type: Lair
