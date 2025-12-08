@@ -349,7 +349,7 @@ npc_releases:
   operand: 6
   classification: 1
   description: Releases the Tool Shop and its owner. She'll give you an item when you talk to her.
-- name: Tulip in front of Village Chief's House
+- name: Tulip by Chief's House
   id: 253
   operand: 7
   classification: 0
@@ -384,7 +384,7 @@ npc_releases:
   operand: 16
   classification: 1
   description: Grass Valley - Releases Lisa, the daughter of Dr. Leo. Enter her dreams with the Dream Rod to unlock two checks in the east half of the Underground Castle.
-- name: Tulip Above Dungeon Entrance
+- name: Tulip Above Dungeon
   id: 253
   operand: 17
   classification: 0
@@ -409,7 +409,7 @@ npc_releases:
   operand: 22
   classification: 1
   description: Grass Valley - Releases Teddy the Tool Show Owner's son. Will give you an item. Requires the Tool Shop Owner to be released.
-- name: Tulip Behind Leo's House
+- name: Tulip by Leo's House
   id: 253
   operand: 24
   classification: 0
@@ -449,7 +449,7 @@ npc_releases:
   operand: 41
   classification: 0
   description: Grass Valley - Releases the old man who tells you about crab-walking. Has no use.
-- name: Ivy to Ledge Above Dungeon Entrance
+- name: Ivy Above Dungeon
   id: 253
   operand: 42
   classification: 0
@@ -479,7 +479,7 @@ npc_releases:
   operand: 55
   classification: 1
   description: Greenwood - Releases the shy bird who flies away if you approach from the front. Approach from behind to talk to it and receive an item.
-- name: Bird Near Marsh Entrance
+- name: Bird by Marsh
   id: 253
   operand: 56
   classification: 0
@@ -529,7 +529,7 @@ npc_releases:
   operand: 74
   classification: 1
   description: Greenwood - Releases the first member of the Woodstin Crew (huh!). Release all three for an item.
-- name: Center Island Crocodile
+- name: Center Crocodile
   id: 253
   operand: 78
   classification: 1
@@ -544,7 +544,7 @@ npc_releases:
   operand: 80
   classification: 1
   description: Greenwood - Releases Greenwood's Guardian. He'll give you an item and open the way to the next world.
-- name: Mole Hole to Sleeping Stump
+- name: Mole Hole to South-West
   id: 253
   operand: 81
   classification: 1
@@ -579,7 +579,7 @@ npc_releases:
   operand: 92
   classification: 0
   description: Greenwood - Releases the Peekaboo Mole (still not surprised) and the mole hole on the far left leading to the central west island. Has no logical use.
-- name: Woodstin Trio Squirrel
+- name: Woodstin Squirrel
   id: 253
   operand: 93
   classification: 1
@@ -644,7 +644,7 @@ npc_releases:
   operand: 139
   classification: 0
   description: Seabed Sanctuary - Releases Nanna the mermaid dancer. Has no use.
-- name: Prison Breaking Dolphin
+- name: Prison-Break Dolphin
   id: 253
   operand: 140
   classification: 1
@@ -654,7 +654,7 @@ npc_releases:
   operand: 141
   classification: 1
   description: Seabed Sanctuary - Releases the North-East Mermaid statue which will open the path to Blester.
-- name: Common House Top Mermaid with Gift
+- name: Big House Upper Mermaid with Gift
   id: 253
   operand: 142
   classification: 1
@@ -664,7 +664,7 @@ npc_releases:
   operand: 143
   classification: 1
   description: Seabed Sanctuary - Releases Lue the Dolphin. Bust them out of jail to get an item.
-- name: Mermaid Queen's Attendant Left
+- name: Mermaid Attendant Left
   id: 253
   operand: 146
   classification: 0
@@ -674,7 +674,7 @@ npc_releases:
   operand: 149
   classification: 0
   description: Seabed Sanctuary - Releases the north-west house and the mermaid inside. Has no use.
-- name: Mermaid Dance Troupe Leader
+- name: Mermaid Troupe Leader
   id: 253
   operand: 153
   classification: 1
@@ -689,7 +689,7 @@ npc_releases:
   operand: 157
   classification: 1
   description: Seabed Sanctuary - Releases the South-East Mermaid statue which will open the path to Rockbird.
-- name: Common House Main Mermaid with Gift
+- name: Big House Main Mermaid with Gift
   id: 253
   operand: 161
   classification: 1
@@ -704,7 +704,7 @@ npc_releases:
   operand: 165
   classification: 0
   description: Seabed Sanctuary - Releases Kanna the mermaid dancer. Has no use.
-- name: Common House East Room Mermaid
+- name: Big House East Room Mermaid
   id: 253
   operand: 167
   classification: 0
@@ -714,7 +714,7 @@ npc_releases:
   operand: 171
   classification: 1
   description: Seabed Sanctuary - Releases the South-West Mermaid statue which will open the path to Durean.
-- name: Angelfish South of Central Platform
+- name: Angelfish South of Center
   id: 253
   operand: 173
   classification: 0
@@ -724,7 +724,7 @@ npc_releases:
   operand: 177
   classification: 1
   description: Seabed Sanctuary - Releases south-east and the angelfish who is from the sky (like you). Will give you a soul/item. 
-- name: Common House West Room Mermaid with Gift.
+- name: Big House West Room Mermaid with Gift.
   id: 253
   operand: 181
   classification: 1
@@ -734,7 +734,7 @@ npc_releases:
   operand: 182
   classification: 1
   description: Seabed Sanctuary - Releases the Mermaid Queen. She'll give you an item and open the way to the next world.
-- name: Mermaid Statue to Ghost Ship
+- name: Statue to Ghost Ship
   id: 253
   operand: 185
   classification: 1
@@ -744,17 +744,17 @@ npc_releases:
   operand: 187
   classification: 1
   description: Seabed Sanctuary - Releases the Sleeping Dolphin in prison area. Enter the dolphin's dream and give them the Big Pearl to open the path to the secret cove.
-- name: Mermaid Queen's Attendant Right
+- name: Mermaid Attendant Right
   id: 253
   operand: 189
   classification: 0
   description: Seabed Sanctuary - Releases the Mermaid attending the queen (on the right). Has no use.
-- name: Angelfish East of Central Platform
+- name: Angelfish East of Center
   id: 253
   operand: 190
   classification: 0
   description: Seabed Sanctuary - Releases the Angelfish East of the Central Platform. Has no use.
-- name: Swimming Common House Mermaid
+- name: Swimming Mermaid
   id: 253
   operand: 192
   classification: 0
@@ -894,7 +894,7 @@ npc_releases:
   operand: 254
   classification: 1
   description: Mountain of Souls - Releases a grandpa guarding the path to Lune. He wont let you pass until you show him the Lucky Blade.
-- name: Grandpa Guarding the Jail
+- name: Grandpa Guarding Jail
   id: 253
   operand: 255
   classification: 1

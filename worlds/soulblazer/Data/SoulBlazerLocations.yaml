@@ -174,29 +174,29 @@ chests:
   description: Act 3 - Seabed North-West - Chest in South-East Cove
   type: Chest
   flag: NONE
-- name: Mountain Slopes Base - South-East Chest Down the Slide
+- name: Mountain North Slope - South-East Chest Down the Slide
   id: 35
-  description: Act 4 - Mountain Slopes Base - South-East Chest Down the Slide
+  description: Act 4 - Mountain North Slope - South-East Chest Down the Slide
   type: Chest
   flag: NONE
-- name: Mountain Slopes Ascent - Buried Treasure Left-Most Chest
+- name: Aurora's Ridge - Buried Treasure Left-Most Chest
   id: 36
-  description: Act 4 - Mountain Slopes Ascent - Buried Treasure Left-Most Chest
+  description: Act 4 - Aurora's Ridge - Buried Treasure Left-Most Chest
   type: Chest
   flag: NONE
-- name: Mountain Slopes Ascent - Buried Treasure Middle-Left Chest
+- name: Aurora's Ridge - Buried Treasure Middle-Left Chest
   id: 37
-  description: Act 4 - Mountain Slopes Ascent - Buried Treasure Middle-Left Chest
+  description: Act 4 - Aurora's Ridge - Buried Treasure Middle-Left Chest
   type: Chest
   flag: NONE
-- name: Mountain Slopes Ascent - Buried Treasure Middle-Right Chest
+- name: Aurora's Ridge - Buried Treasure Middle-Right Chest
   id: 38
-  description: Act 4 - Mountain Slopes Ascent - Buried Treasure Middle-Right Chest
+  description: Act 4 - Aurora's Ridge - Buried Treasure Middle-Right Chest
   type: Chest
   flag: NONE
-- name: Mountain Slopes Ascent - Buried Treasure Right-Most Chest
+- name: Aurora's Ridge - Buried Treasure Right-Most Chest
   id: 39
-  description: Act 4 - Mountain Slopes Ascent - Buried Treasure Right-Most Chest
+  description: Act 4 - Aurora's Ridge - Buried Treasure Right-Most Chest
   type: Chest
   flag: NONE
 - name: Laynole West - North Invisible Bridge Chest
@@ -760,34 +760,34 @@ lairs:
   description: Act 3 - Seabed - Lair 194 - South-East Corner Lair
   type: Lair
   flag: NONE
-- name: Mountain Slopes Base - Mid Level Lair
+- name: Mountain North Slope - Mid Level Lair
   id: 201
-  description: Act 4 - Mountain Slopes Base - Lair 202 - Mid Level Lair
+  description: Act 4 - Mountain North Slope - Lair 202 - Mid Level Lair
   type: Lair
   flag: NONE
-- name: Mountain Slopes Base - Mountain Base Lair
+- name: Mountain North Slope - Mountain Base Lair
   id: 202
-  description: Act 4 - Mountain Slopes Base - Lair 202 - Mountain Base Lair
+  description: Act 4 - Mountain North Slope - Lair 202 - Mountain Base Lair
   type: Lair
   flag: NONE
-- name: Mountain Slopes Base - Lair Up on the Ledge
+- name: Mountain North Slope - Lair Up on the Ledge
   id: 203
-  description: Act 4 - Mountain Slopes Base - Lair 203 - Lair Up on the Ledge
+  description: Act 4 - Mountain North Slope - Lair 203 - Lair Up on the Ledge
   type: Lair
   flag: NONE
-- name: Mountain Slopes Ascent - Lair at Top of the Slide
+- name: Aurora's Ridge - Lair at Top of the Slide
   id: 204
-  description: Act 4 - Mountain Slopes Ascent - Lair 204 - Lair at Top of the Slide
+  description: Act 4 - Aurora's Ridge - Lair 204 - Lair at Top of the Slide
   type: Lair
   flag: NONE
-- name: Mountain Slopes Ascent - Path through the Snow Right Lair
+- name: Aurora's Ridge - Path through the Snow Right Lair
   id: 211
-  description: Act 4 - Mountain Slopes Ascent - Lair 211 - Path through the Snow Right Lair
+  description: Act 4 - Aurora's Ridge - Lair 211 - Path through the Snow Right Lair
   type: Lair
   flag: NONE
-- name: Mountain Slopes Ascent - Path through the Snow Left Lair
+- name: Aurora's Ridge - Path through the Snow Left Lair
   id: 212
-  description: Act 4 - Mountain Slopes Ascent - Lair 212 - Path through the Snow Left Lair
+  description: Act 4 - Aurora's Ridge - Lair 212 - Path through the Snow Left Lair
   type: Lair
   flag: NONE
 - name: Lune Passage - Lair Under the Waterfall
