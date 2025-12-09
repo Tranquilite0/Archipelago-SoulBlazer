@@ -125,7 +125,7 @@ class SoulBlazerPatchExtensions(APPatchExtension):
         rom_data.apply_basepatch()
 
         if options["equipment_stats"] == EquipmentStats.option_semi_progressive:
-            rom_data.apply_patch("semiprogressive")
+            rom_data.apply_patch("semiprogressive.randobase")
 
         return rom_data.get_bytes()
 

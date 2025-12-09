@@ -181,7 +181,7 @@
   release_width: 0x0B
   release_height: 0x12
   flags: 0x00
-  npc_name_index: 0x08
+  npc_name_index: 0x02
   act_id: 0x00
   lair_map: 0x05
   lair_x: 0x14
@@ -210,7 +210,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x0B
+  npc_name_index: 0x03
   act_id: 0x00
   lair_map: 0x05
   lair_x: 0x1F
@@ -239,7 +239,7 @@
   release_width: 0x1A
   release_height: 0x06
   flags: 0x00
-  npc_name_index: 0x05
+  npc_name_index: 0x04
   act_id: 0x00
   lair_map: 0x05
   lair_x: 0x42
@@ -268,7 +268,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x15
+  npc_name_index: 0x05
   act_id: 0x00
   lair_map: 0x0C
   lair_x: 0x02
@@ -384,7 +384,7 @@
   release_width: 0x01
   release_height: 0x07
   flags: 0x00
-  npc_name_index: 0x0C
+  npc_name_index: 0x06
   act_id: 0x00
   lair_map: 0x05
   lair_x: 0x42
@@ -413,7 +413,7 @@
   release_width: 0x12
   release_height: 0x0A
   flags: 0x00
-  npc_name_index: 0x0D
+  npc_name_index: 0x07
   act_id: 0x00
   lair_map: 0x05
   lair_x: 0x40
@@ -442,7 +442,7 @@
   release_width: 0x13
   release_height: 0x0B
   flags: 0x00
-  npc_name_index: 0x09
+  npc_name_index: 0x08
   act_id: 0x00
   lair_map: 0x06
   lair_x: 0x08
@@ -471,7 +471,7 @@
   release_width: 0x08
   release_height: 0x0C
   flags: 0x00
-  npc_name_index: 0x03
+  npc_name_index: 0x09
   act_id: 0x00
   lair_map: 0x06
   lair_x: 0x08
@@ -500,7 +500,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x0B
+  npc_name_index: 0x0A
   act_id: 0x00
   lair_map: 0x06
   lair_x: 0x08
@@ -529,7 +529,7 @@
   release_width: 0x07
   release_height: 0x0E
   flags: 0x00
-  npc_name_index: 0x06
+  npc_name_index: 0x0B
   act_id: 0x00
   lair_map: 0x06
   lair_x: 0x18
@@ -616,7 +616,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x09
+  npc_name_index: 0x0D
   act_id: 0x00
   lair_map: 0x06
   lair_x: 0x34
@@ -645,7 +645,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x07
+  npc_name_index: 0x0E
   act_id: 0x00
   lair_map: 0x06
   lair_x: 0x35
@@ -703,7 +703,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x0B
+  npc_name_index: 0x0F
   act_id: 0x00
   lair_map: 0x06
   lair_x: 0x2D
@@ -761,7 +761,7 @@
   release_width: 0x11
   release_height: 0x0B
   flags: 0x00
-  npc_name_index: 0x00
+  npc_name_index: 0x10
   act_id: 0x00
   lair_map: 0x06
   lair_x: 0x22
@@ -848,7 +848,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x0A
+  npc_name_index: 0x11
   act_id: 0x00
   lair_map: 0x07
   lair_x: 0x04
@@ -993,7 +993,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x0B
+  npc_name_index: 0x12
   act_id: 0x00
   lair_map: 0x09
   lair_x: 0x1A
@@ -1022,7 +1022,7 @@
   release_width: 0x06
   release_height: 0x07
   flags: 0x00
-  npc_name_index: 0x02
+  npc_name_index: 0x13
   act_id: 0x00
   lair_map: 0x09
   lair_x: 0x19
@@ -1080,7 +1080,7 @@
   release_width: 0x01
   release_height: 0x05
   flags: 0x00
-  npc_name_index: 0x02
+  npc_name_index: 0x14
   act_id: 0x00
   lair_map: 0x0B
   lair_x: 0x05
@@ -1167,7 +1167,7 @@
   release_width: 0x16
   release_height: 0x0D
   flags: 0x00
-  npc_name_index: 0x00
+  npc_name_index: 0x15
   act_id: 0x00
   lair_map: 0x06
   lair_x: 0x19
@@ -1196,7 +1196,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x00
+  npc_name_index: 0x16
   act_id: 0x00
   lair_map: 0x05
   lair_x: 0x4B
@@ -1225,7 +1225,7 @@
   release_width: 0x01
   release_height: 0x05
   flags: 0x00
-  npc_name_index: 0x0C
+  npc_name_index: 0x17
   act_id: 0x00
   lair_map: 0x06
   lair_x: 0x2E
@@ -1254,7 +1254,7 @@
   release_width: 0x01
   release_height: 0x03
   flags: 0x00
-  npc_name_index: 0x0C
+  npc_name_index: 0x18
   act_id: 0x00
   lair_map: 0x09
   lair_x: 0x02
@@ -1283,7 +1283,7 @@
   release_width: 0x01
   release_height: 0x04
   flags: 0x00
-  npc_name_index: 0x0C
+  npc_name_index: 0x19
   act_id: 0x00
   lair_map: 0x0B
   lair_x: 0x0A
@@ -1341,7 +1341,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x0B
+  npc_name_index: 0x1A
   act_id: 0x00
   lair_map: 0x07
   lair_x: 0x03
@@ -1370,7 +1370,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x09
+  npc_name_index: 0x1B
   act_id: 0x00
   lair_map: 0x09
   lair_x: 0x07
@@ -1602,7 +1602,7 @@
   release_width: 0x02
   release_height: 0x02
   flags: 0x00
-  npc_name_index: 0x16
+  npc_name_index: 0x1C
   act_id: 0x01
   lair_map: 0x21
   lair_x: 0x02
@@ -1631,7 +1631,7 @@
   release_width: 0x02
   release_height: 0x02
   flags: 0x00
-  npc_name_index: 0x16
+  npc_name_index: 0x1D
   act_id: 0x01
   lair_map: 0x19
   lair_x: 0x14
@@ -1747,7 +1747,7 @@
   release_width: 0x02
   release_height: 0x02
   flags: 0x00
-  npc_name_index: 0x17
+  npc_name_index: 0x1E
   act_id: 0x01
   lair_map: 0x19
   lair_x: 0x03
@@ -1776,7 +1776,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x17
+  npc_name_index: 0x1F
   act_id: 0x01
   lair_map: 0x19
   lair_x: 0x10
@@ -1834,7 +1834,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x17
+  npc_name_index: 0x20
   act_id: 0x01
   lair_map: 0x19
   lair_x: 0x1C
@@ -1863,7 +1863,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x13
+  npc_name_index: 0x21
   act_id: 0x01
   lair_map: 0x19
   lair_x: 0x03
@@ -1892,7 +1892,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x0E
+  npc_name_index: 0x22
   act_id: 0x01
   lair_map: 0x20
   lair_x: 0x0F
@@ -1950,7 +1950,7 @@
   release_width: 0x02
   release_height: 0x05
   flags: 0x00
-  npc_name_index: 0x0E
+  npc_name_index: 0x23
   act_id: 0x01
   lair_map: 0x1A
   lair_x: 0x0F
@@ -2037,7 +2037,7 @@
   release_width: 0x02
   release_height: 0x02
   flags: 0x00
-  npc_name_index: 0x16
+  npc_name_index: 0x24
   act_id: 0x01
   lair_map: 0x1B
   lair_x: 0x17
@@ -2124,7 +2124,7 @@
   release_width: 0x01
   release_height: 0x01
   flags: 0x00
-  npc_name_index: 0x13
+  npc_name_index: 0x25
   act_id: 0x01
   lair_map: 0x1B
   lair_x: 0x0D
@@ -2153,7 +2153,7 @@
   release_width: 0x0C
   release_height: 0x0C
   flags: 0x00
-  npc_name_index: 0x0F
+  npc_name_index: 0x26
   act_id: 0x01
   lair_map: 0x1B
   lair_x: 0x17
@@ -2269,7 +2269,7 @@
   release_width: 0x08
   release_height: 0x05
   flags: 0x00
-  npc_name_index: 0x10
+  npc_name_index: 0x27
   act_id: 0x01
   lair_map: 0x1C
   lair_x: 0x0F
@@ -2298,7 +2298,7 @@
   release_width: 0x02
   release_height: 0x04
   flags: 0x00
-  npc_name_index: 0x0E
+  npc_name_index: 0x28
   act_id: 0x01
   lair_map: 0x1C
   lair_x: 0x2D
@@ -2327,7 +2327,7 @@
   release_width: 0x03
   release_height: 0x07
   flags: 0x00
-  npc_name_index: 0x12
+  npc_name_index: 0x29
   act_id: 0x01
   lair_map: 0x22
   lair_x: 0x02
@@ -2356,7 +2356,7 @@
   release_width: 0x02
   release_height: 0x02
   flags: 0x00
-  npc_name_index: 0x13
+  npc_name_index: 0x2A
   act_id: 0x01
   lair_map: 0x1C
   lair_x: 0x3D
@@ -2501,7 +2501,7 @@
   release_width: 0x0C
   release_height: 0x0B
   flags: 0x00
-  npc_name_index: 0x17
+  npc_name_index: 0x2B
   act_id: 0x01
   lair_map: 0x1D
   lair_x: 0x1B
@@ -2559,7 +2559,7 @@
   release_width: 0x02
   release_height: 0x02
   flags: 0x00
-  npc_name_index: 0x0E
+  npc_name_index: 0x2C
   act_id: 0x01
   lair_map: 0x1E
   lair_x: 0x0C
@@ -2588,7 +2588,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x0E
+  npc_name_index: 0x2D
   act_id: 0x01
   lair_map: 0x1E
   lair_x: 0x27
@@ -2617,7 +2617,7 @@
   release_width: 0x07
   release_height: 0x03
   flags: 0x00
-  npc_name_index: 0x17
+  npc_name_index: 0x2E
   act_id: 0x01
   lair_map: 0x1E
   lair_x: 0x22
@@ -2646,7 +2646,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x10
+  npc_name_index: 0x2F
   act_id: 0x01
   lair_map: 0x1E
   lair_x: 0x15
@@ -2675,7 +2675,7 @@
   release_width: 0x01
   release_height: 0x02
   flags: 0x00
-  npc_name_index: 0x13
+  npc_name_index: 0x30
   act_id: 0x01
   lair_map: 0x1F
   lair_x: 0x04
@@ -2704,7 +2704,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x0E
+  npc_name_index: 0x31
   act_id: 0x01
   lair_map: 0x1F
   lair_x: 0x04
@@ -2820,7 +2820,7 @@
   release_width: 0x04
   release_height: 0x03
   flags: 0x00
-  npc_name_index: 0x16
+  npc_name_index: 0x32
   act_id: 0x01
   lair_map: 0x1F
   lair_x: 0x2F
@@ -2849,7 +2849,7 @@
   release_width: 0x02
   release_height: 0x02
   flags: 0x00
-  npc_name_index: 0x13
+  npc_name_index: 0x33
   act_id: 0x01
   lair_map: 0x1F
   lair_x: 0x1C
@@ -2878,7 +2878,7 @@
   release_width: 0x02
   release_height: 0x02
   flags: 0x00
-  npc_name_index: 0x0F
+  npc_name_index: 0x34
   act_id: 0x01
   lair_map: 0x1F
   lair_x: 0x14
@@ -2907,7 +2907,7 @@
   release_width: 0x03
   release_height: 0x02
   flags: 0x00
-  npc_name_index: 0x16
+  npc_name_index: 0x35
   act_id: 0x01
   lair_map: 0x1F
   lair_x: 0x0A
@@ -3226,7 +3226,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x10
+  npc_name_index: 0x36
   act_id: 0x01
   lair_map: 0x21
   lair_x: 0x38
@@ -3313,7 +3313,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x13
+  npc_name_index: 0x37
   act_id: 0x01
   lair_map: 0x21
   lair_x: 0x1D
@@ -3603,7 +3603,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x19
+  npc_name_index: 0x38
   act_id: 0x02
   lair_map: 0x34
   lair_x: 0x27
@@ -3806,7 +3806,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x1A
+  npc_name_index: 0x39
   act_id: 0x02
   lair_map: 0x34
   lair_x: 0x56
@@ -3835,7 +3835,7 @@
   release_width: 0x0C
   release_height: 0x0B
   flags: 0x00
-  npc_name_index: 0x18
+  npc_name_index: 0x3A
   act_id: 0x02
   lair_map: 0x34
   lair_x: 0x55
@@ -3893,7 +3893,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x1A
+  npc_name_index: 0x3B
   act_id: 0x02
   lair_map: 0x34
   lair_x: 0x6F
@@ -4009,7 +4009,7 @@
   release_width: 0x14
   release_height: 0x08
   flags: 0x00
-  npc_name_index: 0x18
+  npc_name_index: 0x3C
   act_id: 0x02
   lair_map: 0x30
   lair_x: 0x04
@@ -4038,7 +4038,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x18
+  npc_name_index: 0x3D
   act_id: 0x02
   lair_map: 0x30
   lair_x: 0x16
@@ -4067,7 +4067,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x19
+  npc_name_index: 0x3E
   act_id: 0x02
   lair_map: 0x30
   lair_x: 0x17
@@ -4096,7 +4096,7 @@
   release_width: 0x03
   release_height: 0x03
   flags: 0x00
-  npc_name_index: 0x1D
+  npc_name_index: 0x3F
   act_id: 0x02
   lair_map: 0x30
   lair_x: 0x16
@@ -4125,7 +4125,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x18
+  npc_name_index: 0x40
   act_id: 0x02
   lair_map: 0x30
   lair_x: 0x12
@@ -4154,7 +4154,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x1C
+  npc_name_index: 0x41
   act_id: 0x02
   lair_map: 0x30
   lair_x: 0x16
@@ -4241,7 +4241,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x18
+  npc_name_index: 0x42
   act_id: 0x02
   lair_map: 0x30
   lair_x: 0x24
@@ -4328,7 +4328,7 @@
   release_width: 0x0C
   release_height: 0x0B
   flags: 0x00
-  npc_name_index: 0x18
+  npc_name_index: 0x43
   act_id: 0x02
   lair_map: 0x30
   lair_x: 0x38
@@ -4444,7 +4444,7 @@
   release_width: 0x0F
   release_height: 0x0C
   flags: 0x00
-  npc_name_index: 0x18
+  npc_name_index: 0x44
   act_id: 0x02
   lair_map: 0x2E
   lair_x: 0x0F
@@ -4502,7 +4502,7 @@
   release_width: 0x0E
   release_height: 0x0C
   flags: 0x00
-  npc_name_index: 0x19
+  npc_name_index: 0x45
   act_id: 0x02
   lair_map: 0x2E
   lair_x: 0x08
@@ -4560,7 +4560,7 @@
   release_width: 0x03
   release_height: 0x03
   flags: 0x00
-  npc_name_index: 0x1D
+  npc_name_index: 0x46
   act_id: 0x02
   lair_map: 0x2E
   lair_x: 0x19
@@ -4676,7 +4676,7 @@
   release_width: 0x25
   release_height: 0x18
   flags: 0x00
-  npc_name_index: 0x18
+  npc_name_index: 0x47
   act_id: 0x02
   lair_map: 0x2E
   lair_x: 0x36
@@ -4763,7 +4763,7 @@
   release_width: 0x14
   release_height: 0x08
   flags: 0x00
-  npc_name_index: 0x18
+  npc_name_index: 0x48
   act_id: 0x02
   lair_map: 0x2E
   lair_x: 0x23
@@ -4792,7 +4792,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x18
+  npc_name_index: 0x49
   act_id: 0x02
   lair_map: 0x2E
   lair_x: 0x23
@@ -4850,7 +4850,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x18
+  npc_name_index: 0x4A
   act_id: 0x02
   lair_map: 0x2F
   lair_x: 0x09
@@ -4966,7 +4966,7 @@
   release_width: 0x03
   release_height: 0x03
   flags: 0x00
-  npc_name_index: 0x1D
+  npc_name_index: 0x4B
   act_id: 0x02
   lair_map: 0x2F
   lair_x: 0x19
@@ -5024,7 +5024,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x1A
+  npc_name_index: 0x4C
   act_id: 0x02
   lair_map: 0x34
   lair_x: 0x0E
@@ -5140,7 +5140,7 @@
   release_width: 0x0A
   release_height: 0x0E
   flags: 0x00
-  npc_name_index: 0x1A
+  npc_name_index: 0x4D
   act_id: 0x02
   lair_map: 0x2F
   lair_x: 0x15
@@ -5256,7 +5256,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x18
+  npc_name_index: 0x4E
   act_id: 0x02
   lair_map: 0x2F
   lair_x: 0x0A
@@ -5285,7 +5285,7 @@
   release_width: 0x0E
   release_height: 0x0B
   flags: 0x00
-  npc_name_index: 0x1B
+  npc_name_index: 0x4F
   act_id: 0x02
   lair_map: 0x32
   lair_x: 0x0E
@@ -5372,7 +5372,7 @@
   release_width: 0x03
   release_height: 0x03
   flags: 0x00
-  npc_name_index: 0x1D
+  npc_name_index: 0x50
   act_id: 0x02
   lair_map: 0x31
   lair_x: 0x0A
@@ -5430,7 +5430,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x19
+  npc_name_index: 0x51
   act_id: 0x02
   lair_map: 0x31
   lair_x: 0x06
@@ -5488,7 +5488,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x18
+  npc_name_index: 0x52
   act_id: 0x02
   lair_map: 0x31
   lair_x: 0x19
@@ -5517,7 +5517,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x1A
+  npc_name_index: 0x53
   act_id: 0x02
   lair_map: 0x31
   lair_x: 0x2A
@@ -5575,7 +5575,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x18
+  npc_name_index: 0x54
   act_id: 0x02
   lair_map: 0x31
   lair_x: 0x3B
@@ -5604,7 +5604,7 @@
   release_width: 0x0B
   release_height: 0x0C
   flags: 0x00
-  npc_name_index: 0x19
+  npc_name_index: 0x55
   act_id: 0x02
   lair_map: 0x2A
   lair_x: 0x13
@@ -5633,7 +5633,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x18
+  npc_name_index: 0x56
   act_id: 0x02
   lair_map: 0x2A
   lair_x: 0x79
@@ -5836,7 +5836,7 @@
   release_width: 0x11
   release_height: 0x14
   flags: 0x00
-  npc_name_index: 0x20
+  npc_name_index: 0x57
   act_id: 0x03
   lair_map: 0x3E
   lair_x: 0x21
@@ -5865,7 +5865,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x1F
+  npc_name_index: 0x58
   act_id: 0x03
   lair_map: 0x3E
   lair_x: 0x17
@@ -5894,7 +5894,7 @@
   release_width: 0x0D
   release_height: 0x0C
   flags: 0x00
-  npc_name_index: 0x24
+  npc_name_index: 0x59
   act_id: 0x03
   lair_map: 0x3E
   lair_x: 0x0A
@@ -5923,7 +5923,7 @@
   release_width: 0x11
   release_height: 0x08
   flags: 0x00
-  npc_name_index: 0x1E
+  npc_name_index: 0x5A
   act_id: 0x03
   lair_map: 0x3F
   lair_x: 0x1C
@@ -6126,7 +6126,7 @@
   release_width: 0x0B
   release_height: 0x0B
   flags: 0x00
-  npc_name_index: 0x20
+  npc_name_index: 0x5B
   act_id: 0x03
   lair_map: 0x3F
   lair_x: 0x2C
@@ -6155,7 +6155,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x22
+  npc_name_index: 0x5C
   act_id: 0x03
   lair_map: 0x3F
   lair_x: 0x28
@@ -6213,7 +6213,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x25
+  npc_name_index: 0x5D
   act_id: 0x03
   lair_map: 0x41
   lair_x: 0x23
@@ -6242,7 +6242,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x1E
+  npc_name_index: 0x5E
   act_id: 0x03
   lair_map: 0x41
   lair_x: 0x18
@@ -6416,7 +6416,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x24
+  npc_name_index: 0x5F
   act_id: 0x03
   lair_map: 0x42
   lair_x: 0x28
@@ -6532,7 +6532,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x21
+  npc_name_index: 0x60
   act_id: 0x03
   lair_map: 0x42
   lair_x: 0x1D
@@ -6677,7 +6677,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x21
+  npc_name_index: 0x61
   act_id: 0x03
   lair_map: 0x42
   lair_x: 0x16
@@ -6735,7 +6735,7 @@
   release_width: 0x05
   release_height: 0x0E
   flags: 0x00
-  npc_name_index: 0x22
+  npc_name_index: 0x62
   act_id: 0x03
   lair_map: 0x42
   lair_x: 0x11
@@ -6764,7 +6764,7 @@
   release_width: 0x13
   release_height: 0x19
   flags: 0x00
-  npc_name_index: 0x1E
+  npc_name_index: 0x63
   act_id: 0x03
   lair_map: 0x45
   lair_x: 0x0F
@@ -6793,7 +6793,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x21
+  npc_name_index: 0x64
   act_id: 0x03
   lair_map: 0x45
   lair_x: 0x29
@@ -6822,7 +6822,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x1F
+  npc_name_index: 0x65
   act_id: 0x03
   lair_map: 0x45
   lair_x: 0x0C
@@ -6909,7 +6909,7 @@
   release_width: 0x0B
   release_height: 0x0D
   flags: 0x00
-  npc_name_index: 0x24
+  npc_name_index: 0x66
   act_id: 0x03
   lair_map: 0x46
   lair_x: 0x1B
@@ -6938,7 +6938,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x22
+  npc_name_index: 0x67
   act_id: 0x03
   lair_map: 0x46
   lair_x: 0x0B
@@ -6967,7 +6967,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x22
+  npc_name_index: 0x68
   act_id: 0x03
   lair_map: 0x46
   lair_x: 0x14
@@ -7025,7 +7025,7 @@
   release_width: 0x0B
   release_height: 0x14
   flags: 0x00
-  npc_name_index: 0x1F
+  npc_name_index: 0x69
   act_id: 0x03
   lair_map: 0x46
   lair_x: 0x10
@@ -7141,7 +7141,7 @@
   release_width: 0x04
   release_height: 0x08
   flags: 0x00
-  npc_name_index: 0x24
+  npc_name_index: 0x6A
   act_id: 0x03
   lair_map: 0x46
   lair_x: 0x1C
@@ -7170,7 +7170,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x22
+  npc_name_index: 0x6B
   act_id: 0x03
   lair_map: 0x46
   lair_x: 0x08
@@ -7199,7 +7199,7 @@
   release_width: 0x0A
   release_height: 0x07
   flags: 0x00
-  npc_name_index: 0x20
+  npc_name_index: 0x6C
   act_id: 0x03
   lair_map: 0x47
   lair_x: 0x08
@@ -7257,7 +7257,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x22
+  npc_name_index: 0x6D
   act_id: 0x03
   lair_map: 0x47
   lair_x: 0x12
@@ -7315,7 +7315,7 @@
   release_width: 0x19
   release_height: 0x1A
   flags: 0x00
-  npc_name_index: 0x20
+  npc_name_index: 0x6E
   act_id: 0x03
   lair_map: 0x47
   lair_x: 0x1A
@@ -7373,7 +7373,7 @@
   release_width: 0x09
   release_height: 0x09
   flags: 0x00
-  npc_name_index: 0x20
+  npc_name_index: 0x6F
   act_id: 0x03
   lair_map: 0x47
   lair_x: 0x0A
@@ -7402,7 +7402,7 @@
   release_width: 0x14
   release_height: 0x0A
   flags: 0x00
-  npc_name_index: 0x20
+  npc_name_index: 0x70
   act_id: 0x03
   lair_map: 0x47
   lair_x: 0x18
@@ -7518,7 +7518,7 @@
   release_width: 0x18
   release_height: 0x0E
   flags: 0x00
-  npc_name_index: 0x23
+  npc_name_index: 0x71
   act_id: 0x03
   lair_map: 0x44
   lair_x: 0x06
@@ -7692,7 +7692,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x29
+  npc_name_index: 0x72
   act_id: 0x04
   lair_map: 0x56
   lair_x: 0x08
@@ -7750,7 +7750,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x29
+  npc_name_index: 0x73
   act_id: 0x04
   lair_map: 0x56
   lair_x: 0x02
@@ -7779,7 +7779,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x2B
+  npc_name_index: 0x74
   act_id: 0x04
   lair_map: 0x56
   lair_x: 0x14
@@ -7808,7 +7808,7 @@
   release_width: 0x11
   release_height: 0x05
   flags: 0x00
-  npc_name_index: 0x28
+  npc_name_index: 0x75
   act_id: 0x04
   lair_map: 0x56
   lair_x: 0x1D
@@ -7953,7 +7953,7 @@
   release_width: 0x03
   release_height: 0x03
   flags: 0x00
-  npc_name_index: 0x27
+  npc_name_index: 0x76
   act_id: 0x04
   lair_map: 0x56
   lair_x: 0x2B
@@ -8011,7 +8011,7 @@
   release_width: 0x12
   release_height: 0x04
   flags: 0x00
-  npc_name_index: 0x28
+  npc_name_index: 0x77
   act_id: 0x04
   lair_map: 0x56
   lair_x: 0x26
@@ -8185,7 +8185,7 @@
   release_width: 0x03
   release_height: 0x03
   flags: 0x00
-  npc_name_index: 0x27
+  npc_name_index: 0x78
   act_id: 0x04
   lair_map: 0x56
   lair_x: 0x39
@@ -8214,7 +8214,7 @@
   release_width: 0x0A
   release_height: 0x09
   flags: 0x00
-  npc_name_index: 0x28
+  npc_name_index: 0x79
   act_id: 0x04
   lair_map: 0x56
   lair_x: 0x39
@@ -8301,7 +8301,7 @@
   release_width: 0x03
   release_height: 0x03
   flags: 0x00
-  npc_name_index: 0x2E
+  npc_name_index: 0x7A
   act_id: 0x04
   lair_map: 0x57
   lair_x: 0x08
@@ -8359,7 +8359,7 @@
   release_width: 0x03
   release_height: 0x03
   flags: 0x00
-  npc_name_index: 0x27
+  npc_name_index: 0x7B
   act_id: 0x04
   lair_map: 0x57
   lair_x: 0x09
@@ -8417,7 +8417,7 @@
   release_width: 0x01
   release_height: 0x05
   flags: 0x00
-  npc_name_index: 0x26
+  npc_name_index: 0x7C
   act_id: 0x04
   lair_map: 0x57
   lair_x: 0x0D
@@ -8533,7 +8533,7 @@
   release_width: 0x07
   release_height: 0x07
   flags: 0x00
-  npc_name_index: 0x28
+  npc_name_index: 0x7D
   act_id: 0x04
   lair_map: 0x57
   lair_x: 0x16
@@ -8620,7 +8620,7 @@
   release_width: 0x02
   release_height: 0x02
   flags: 0x00
-  npc_name_index: 0x2A
+  npc_name_index: 0x7E
   act_id: 0x04
   lair_map: 0x57
   lair_x: 0x1C
@@ -8794,7 +8794,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x2D
+  npc_name_index: 0x7F
   act_id: 0x04
   lair_map: 0x59
   lair_x: 0x16
@@ -8997,7 +8997,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x2C
+  npc_name_index: 0x80
   act_id: 0x04
   lair_map: 0x58
   lair_x: 0x37
@@ -9026,7 +9026,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x03
-  npc_name_index: 0x2B
+  npc_name_index: 0x81
   act_id: 0x04
   lair_map: 0x5B
   lair_x: 0x03
@@ -9084,7 +9084,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x03
-  npc_name_index: 0x29
+  npc_name_index: 0x82
   act_id: 0x04
   lair_map: 0x5B
   lair_x: 0x0D
@@ -9142,7 +9142,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x03
-  npc_name_index: 0x2A
+  npc_name_index: 0x83
   act_id: 0x04
   lair_map: 0x5B
   lair_x: 0x12
@@ -9171,7 +9171,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x03
-  npc_name_index: 0x2A
+  npc_name_index: 0x84
   act_id: 0x04
   lair_map: 0x5B
   lair_x: 0x0B
@@ -9229,7 +9229,7 @@
   release_width: 0x02
   release_height: 0x03
   flags: 0x03
-  npc_name_index: 0x2A
+  npc_name_index: 0x85
   act_id: 0x04
   lair_map: 0x5B
   lair_x: 0x0C
@@ -9345,7 +9345,7 @@
   release_width: 0x03
   release_height: 0x03
   flags: 0x03
-  npc_name_index: 0x27
+  npc_name_index: 0x86
   act_id: 0x04
   lair_map: 0x5B
   lair_x: 0x2A
@@ -9432,7 +9432,7 @@
   release_width: 0x06
   release_height: 0x08
   flags: 0x03
-  npc_name_index: 0x2E
+  npc_name_index: 0x87
   act_id: 0x04
   lair_map: 0x5B
   lair_x: 0x31
@@ -9577,7 +9577,7 @@
   release_width: 0x0B
   release_height: 0x13
   flags: 0x03
-  npc_name_index: 0x2A
+  npc_name_index: 0x88
   act_id: 0x04
   lair_map: 0x5B
   lair_x: 0x32
@@ -9606,7 +9606,7 @@
   release_width: 0x03
   release_height: 0x09
   flags: 0x03
-  npc_name_index: 0x26
+  npc_name_index: 0x89
   act_id: 0x04
   lair_map: 0x5B
   lair_x: 0x3A
@@ -9635,7 +9635,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x03
-  npc_name_index: 0x2B
+  npc_name_index: 0x8A
   act_id: 0x04
   lair_map: 0x5C
   lair_x: 0x17
@@ -9664,7 +9664,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x03
-  npc_name_index: 0x29
+  npc_name_index: 0x8B
   act_id: 0x04
   lair_map: 0x5C
   lair_x: 0x06
@@ -9809,7 +9809,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x03
-  npc_name_index: 0x2A
+  npc_name_index: 0x8C
   act_id: 0x04
   lair_map: 0x5C
   lair_x: 0x14
@@ -9838,7 +9838,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x03
-  npc_name_index: 0x28
+  npc_name_index: 0x8D
   act_id: 0x04
   lair_map: 0x5C
   lair_x: 0x22
@@ -9896,7 +9896,7 @@
   release_width: 0x0A
   release_height: 0x08
   flags: 0x03
-  npc_name_index: 0x26
+  npc_name_index: 0x8E
   act_id: 0x04
   lair_map: 0x5C
   lair_x: 0x39
@@ -10012,7 +10012,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x2F
+  npc_name_index: 0x8F
   act_id: 0x05
   lair_map: 0x66
   lair_x: 0x0C
@@ -10041,7 +10041,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x2F
+  npc_name_index: 0x90
   act_id: 0x05
   lair_map: 0x66
   lair_x: 0x19
@@ -10186,7 +10186,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x02
-  npc_name_index: 0x2F
+  npc_name_index: 0x91
   act_id: 0x05
   lair_map: 0x67
   lair_x: 0x0A
@@ -10244,7 +10244,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x02
-  npc_name_index: 0x2F
+  npc_name_index: 0x92
   act_id: 0x05
   lair_map: 0x67
   lair_x: 0x04
@@ -10273,7 +10273,7 @@
   release_width: 0x1C
   release_height: 0x11
   flags: 0x02
-  npc_name_index: 0x2F
+  npc_name_index: 0x93
   act_id: 0x05
   lair_map: 0x67
   lair_x: 0x0F
@@ -10389,7 +10389,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x02
-  npc_name_index: 0x2F
+  npc_name_index: 0x94
   act_id: 0x05
   lair_map: 0x67
   lair_x: 0x23
@@ -10418,7 +10418,7 @@
   release_width: 0x11
   release_height: 0x1A
   flags: 0x02
-  npc_name_index: 0x31
+  npc_name_index: 0x95
   act_id: 0x05
   lair_map: 0x67
   lair_x: 0x23
@@ -10447,7 +10447,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x02
-  npc_name_index: 0x2F
+  npc_name_index: 0x96
   act_id: 0x05
   lair_map: 0x67
   lair_x: 0x2B
@@ -10534,7 +10534,7 @@
   release_width: 0x0E
   release_height: 0x19
   flags: 0x02
-  npc_name_index: 0x30
+  npc_name_index: 0x97
   act_id: 0x05
   lair_map: 0x68
   lair_x: 0x0F
@@ -10592,7 +10592,7 @@
   release_width: 0x06
   release_height: 0x12
   flags: 0x02
-  npc_name_index: 0x2F
+  npc_name_index: 0x98
   act_id: 0x05
   lair_map: 0x68
   lair_x: 0x22
@@ -10621,7 +10621,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x02
-  npc_name_index: 0x2F
+  npc_name_index: 0x99
   act_id: 0x05
   lair_map: 0x68
   lair_x: 0x20
@@ -10679,7 +10679,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x02
-  npc_name_index: 0x2F
+  npc_name_index: 0x9A
   act_id: 0x05
   lair_map: 0x68
   lair_x: 0x30
@@ -10737,7 +10737,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x02
-  npc_name_index: 0x31
+  npc_name_index: 0x9B
   act_id: 0x05
   lair_map: 0x68
   lair_x: 0x39
@@ -10940,7 +10940,7 @@
   release_width: 0x0D
   release_height: 0x19
   flags: 0x00
-  npc_name_index: 0x2F
+  npc_name_index: 0x9C
   act_id: 0x05
   lair_map: 0x6A
   lair_x: 0x1A
@@ -11085,7 +11085,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x02
-  npc_name_index: 0x30
+  npc_name_index: 0x9D
   act_id: 0x05
   lair_map: 0x6B
   lair_x: 0x09
@@ -11114,7 +11114,7 @@
   release_width: 0x10
   release_height: 0x11
   flags: 0x02
-  npc_name_index: 0x34
+  npc_name_index: 0x9E
   act_id: 0x05
   lair_map: 0x6B
   lair_x: 0x16
@@ -11172,7 +11172,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x2F
+  npc_name_index: 0x9F
   act_id: 0x05
   lair_map: 0x6C
   lair_x: 0x03
@@ -11201,7 +11201,7 @@
   release_width: 0x07
   release_height: 0x12
   flags: 0x00
-  npc_name_index: 0x2F
+  npc_name_index: 0xA0
   act_id: 0x05
   lair_map: 0x6C
   lair_x: 0x0D
@@ -11230,7 +11230,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x33
+  npc_name_index: 0xA1
   act_id: 0x05
   lair_map: 0x6C
   lair_x: 0x03
@@ -11288,7 +11288,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x2F
+  npc_name_index: 0xA2
   act_id: 0x05
   lair_map: 0x6C
   lair_x: 0x19
@@ -11317,7 +11317,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x02
-  npc_name_index: 0x2F
+  npc_name_index: 0xA3
   act_id: 0x05
   lair_map: 0x6D
   lair_x: 0x04
@@ -11346,7 +11346,7 @@
   release_width: 0x11
   release_height: 0x19
   flags: 0x00
-  npc_name_index: 0x30
+  npc_name_index: 0xA4
   act_id: 0x05
   lair_map: 0x6D
   lair_x: 0x16
@@ -11491,7 +11491,7 @@
   release_width: 0x31
   release_height: 0x12
   flags: 0x02
-  npc_name_index: 0x2F
+  npc_name_index: 0xA5
   act_id: 0x05
   lair_map: 0x6D
   lair_x: 0x0F
@@ -11520,7 +11520,7 @@
   release_width: 0x11
   release_height: 0x10
   flags: 0x00
-  npc_name_index: 0x2F
+  npc_name_index: 0xA6
   act_id: 0x05
   lair_map: 0x6E
   lair_x: 0x0E
@@ -11578,7 +11578,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x02
-  npc_name_index: 0x2F
+  npc_name_index: 0xA7
   act_id: 0x05
   lair_map: 0x6E
   lair_x: 0x1A
@@ -11665,7 +11665,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x2F
+  npc_name_index: 0xA8
   act_id: 0x05
   lair_map: 0x6F
   lair_x: 0x17
@@ -11752,7 +11752,7 @@
   release_width: 0x00
   release_height: 0x00
   flags: 0x00
-  npc_name_index: 0x32
+  npc_name_index: 0xA9
   act_id: 0x05
   lair_map: 0x72
   lair_x: 0x17
