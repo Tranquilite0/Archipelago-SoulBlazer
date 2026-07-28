@@ -10,6 +10,7 @@ from .Data.Enums import LocationType, ItemID
 from .Util import encode_string, is_bit_set, Rectangle
 from .Data.Lair import LairDataRaw, unpack_lair_data
 from .Data.Entity import EntityData, unpack_entity_data
+from .Options import ReleaseCutscenes
 from NetUtils import ClientStatus, color, NetworkItem
 from worlds.AutoSNIClient import SNIClient
 from Utils import async_start
@@ -85,6 +86,7 @@ class SoulBlazerSNIClient(SNIClient):
         self.event_flags: list[int] = []
         self.gem_data: dict[str, int] = {}
         self.exp_data: dict[str, int] = {}
+        self.release_cutscenes: int = 0
         self.slot_data_rom_name: bytes = bytes(0)
         self.item_send_queue: list[ItemSend] = []
 
@@ -135,6 +137,10 @@ class SoulBlazerSNIClient(SNIClient):
         if item.player != ctx.slot:
             return False
 
+        # Force players to recollect Victory manually
+        if ctx.item_names.lookup_in_game(item.item) == ItemID.VICTORY.full_name:
+            return True
+
         location_data = self.location_data_for_address.get(item.location)
         # I dont think this should ever happen.
         if location_data is None:
@@ -153,6 +159,10 @@ class SoulBlazerSNIClient(SNIClient):
 
     def is_in_excluded_zone(self, location: LocationData, lair_state_table: bytes) -> bool:
         """True if player is in a location that should not allow items to be received."""
+
+        #No need to exclude when cutscenes are skipped
+        if self.release_cutscenes == ReleaseCutscenes.option_skip:
+            return False
 
         return any(rect.contains(location.x, location.y) for rect in exclusion_zones.get(location.map_id, [])) or any(
             self.is_lair_in_progress(lair_id, lair_state_table) for lair_id in self.lairs_for_map[location.map_id]
@@ -223,6 +233,7 @@ class SoulBlazerSNIClient(SNIClient):
             if slot_data:
                 self.gem_data = slot_data.get("gem_data", {})
                 self.exp_data = slot_data.get("exp_data", {})
+                self.release_cutscenes = slot_data.get("release_cutscenes", 0)
                 self.slot_data_rom_name = ctx.rom
                 snes_logger.debug(f"({cmd}) Successfully obtained slot data.")
         elif cmd == "Retrieved":
@@ -230,6 +241,7 @@ class SoulBlazerSNIClient(SNIClient):
             if slot_data:
                 self.gem_data = slot_data.get("gem_data", {})
                 self.exp_data = slot_data.get("exp_data", {})
+                self.release_cutscenes = slot_data.get("release_cutscenes", 0)
                 self.slot_data_rom_name = ctx.rom
                 snes_logger.debug(f"({cmd}) Successfully obtained slot data.")
         elif cmd == "PrintJSON":
