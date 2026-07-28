@@ -1476,7 +1476,7 @@ npc-rewards:
   description: Act 3 - Seabed - South-West Crystal Fairy's Item (Path to Durean)
   type: NPC Reward
   flag: NONE
-- name: Trail Room - Magician's Soul
+- name: Trial Room - Magician's Soul
   id: 60
   description:  Act 1 - Trial Room - Magician's Soul (start of the game)
   type: NPC Reward

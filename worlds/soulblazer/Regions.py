@@ -286,10 +286,12 @@ locations_for_region: dict[str, list[str]] = {
         NPCRewardID.MOUSEHOLE_PLANT.full_name,
         ChestID.LEOS_LAB_MAIN.full_name,
     ],
-    RegionName.LEOS_LAB_2ND_FLOOR: [
+    RegionName.LEOS_LAB_2ND_FLOOR_HALLWAY: [
+        NPCRewardID.GREAT_DOOR_SOUL.full_name,
+    ],
+    RegionName.LEOS_LAB_2ND_FLOOR_MODELS: [
         NPCRewardID.SLEEPING_CAT.full_name,
         NPCRewardID.ACTINIDIA_PLANT.full_name,
-        NPCRewardID.GREAT_DOOR_SOUL.full_name,
     ],
     RegionName.LEOS_LAB_ATTIC: [
         NPCRewardID.MARIE.full_name,
@@ -311,7 +313,7 @@ locations_for_region: dict[str, list[str]] = {
         NPCRewardID.LEOS_LAB_B2_CRYSTAL.full_name,
     ],
     RegionName.LEOS_LAB_MODEL_TOWN_1: [
-        LairID.CHEST_OF_DRAWERS_EXCERCISE.full_name,
+        LairID.CHEST_OF_DRAWERS_EXERCISE.full_name,
         LairID.PLANT_LOCKED_ROOM.full_name,
         LairID.MOUSE_CIRCLING_1.full_name,
         LairID.MOUSE_BEDROOM.full_name,
@@ -539,16 +541,16 @@ exits_for_region: dict[str, list[ExitData]] = {
     RegionName.LEOS_LAB_START: [
         ExitData(RegionName.LEOS_LAB_BASEMENT_1_METAL, rule_flag=RuleFlag.CAN_CUT_METAL),
         ExitData(RegionName.LEOS_LAB_MAIN, [NPCID.GREAT_DOOR_MAIN_LAB.full_name]),
-        ExitData(
-            RegionName.LEOS_LAB_2ND_FLOOR,
-            [NPCID.STEPS_TO_2F.full_name, NPCID.GREAT_DOOR_MODEL_TOWNS.full_name],
-        ),
+        ExitData(RegionName.LEOS_LAB_2ND_FLOOR_HALLWAY, [NPCID.STEPS_TO_2F.full_name]),
         ExitData(RegionName.LEOS_LAB_POWER_PLANT, [NPCID.STEPS_POWER_PLANT.full_name]),
     ],
     RegionName.LEOS_LAB_BASEMENT_1_METAL: [
         ExitData(RegionName.LEOS_LAB_BASEMENT_2, [ItemID.ICEARMOR.full_name]),
     ],
-    RegionName.LEOS_LAB_2ND_FLOOR: [
+    RegionName.LEOS_LAB_2ND_FLOOR_HALLWAY: [
+        ExitData(RegionName.LEOS_LAB_2ND_FLOOR_MODELS, [NPCID.GREAT_DOOR_MODEL_TOWNS.full_name]),
+    ],
+    RegionName.LEOS_LAB_2ND_FLOOR_MODELS: [
         ExitData(RegionName.LEOS_LAB_MODEL_TOWN_1, [NPCID.MODEL_TOWN1.full_name]),
         ExitData(RegionName.LEOS_LAB_MODEL_TOWN_2, [NPCID.MODEL_TOWN2.full_name]),
         ExitData(RegionName.LEOS_LAB_ATTIC, [NPCID.STEPS_ATTIC.full_name]),
