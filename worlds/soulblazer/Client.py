@@ -138,7 +138,7 @@ class SoulBlazerSNIClient(SNIClient):
             return False
 
         # Force players to recollect Victory manually
-        if item.item == ItemID.VICTORY:
+        if ctx.item_names.lookup_in_game(item.item) == ItemID.VICTORY.full_name:
             return True
 
         location_data = self.location_data_for_address.get(item.location)
