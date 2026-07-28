@@ -90,6 +90,7 @@ class SoulBlazerWorld(World):
         self.gem_items: list[SoulBlazerItem]
         self.pre_fill_items: list[Item] = []
         self.rom_name: bytes
+        self.hash_str: str
         self.lair_data: list[LairDataRaw]
         # self.set_rules = set_rules
         # self.create_regions = create_regions
@@ -113,10 +114,12 @@ class SoulBlazerWorld(World):
     def generate_early(self) -> None:
         from Utils import __version__
 
+        # TODO: Add update hash with all non-cosmetic patch bytes.
         data = bytes(f"SoulBlazer_{__version__}_{self.player}_{self.multiworld.seed}", "ascii")
 
         hash = blake2b(data, digest_size=9, key=bytes(str(self.multiworld.seed), "ascii"))
-        self.rom_name = b"SB_" + bytes(hash.hexdigest(), "ascii")
+        self.hash_str = hash.hexdigest()
+        self.rom_name = b"SB_" + bytes(self.hash_str, "ascii")
         # Should already be the correct length of 21 bytes, but ensure anyway.
         self.rom_name = self.rom_name[: Addresses.ROMNAME_SIZE]
 

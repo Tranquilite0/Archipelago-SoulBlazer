@@ -20,6 +20,7 @@ from .Items import SoulBlazerItem
 from .Locations import SoulBlazerLocation
 from .Options import SoulBlazerOptions, EquipmentStats
 from .patches import get_patch_bytes
+from .Util import encode_string
 
 if TYPE_CHECKING:
     from . import SoulBlazerWorld
@@ -272,6 +273,9 @@ def write_patch(world: "SoulBlazerWorld", patch: SoulBlazerProcedurePatch) -> No
         patch.place(location)
 
     # end TODO
+
+    hash_string_bytes = encode_string(f"Hash:{world.hash_str.upper()}", 0x20)
+    patch.write_token(APTokenTypes.WRITE, Addresses.STRINGS_START, hash_string_bytes)
 
     patch.write_file("token_data.bin", patch.get_token_binary())
 
