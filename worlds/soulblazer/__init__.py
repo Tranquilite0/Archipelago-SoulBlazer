@@ -114,6 +114,7 @@ class SoulBlazerWorld(World):
     def generate_early(self) -> None:
         from Utils import __version__
 
+        # TODO: Add update hash with all non-cosmetic patch bytes.
         data = bytes(f"SoulBlazer_{__version__}_{self.player}_{self.multiworld.seed}", "ascii")
 
         hash = blake2b(data, digest_size=9, key=bytes(str(self.multiworld.seed), "ascii"))
